@@ -1,0 +1,844 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    KeyPreview = NotDefault
+    OrderByOn = NotDefault
+    AllowDesignChanges = NotDefault
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =14280
+    DatasheetFontHeight =11
+    ItemSuffix =134
+    Right =50000
+    Bottom =50000
+    OrderBy ="[qryPurchaseOrderList].[PurchaseOrderID] DESC, [qryPurchaseOrderList].[ApprovedD"
+        "ate] DESC, [qryPurchaseOrderList].[TotalCost]"
+    RecSrcDt = Begin
+        0xfa43e47ad9dce540
+    End
+    RecordSource ="qryPurchaseOrderList"
+    Caption ="Purchase Orders"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1200
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    Top =840
+                    Width =14280
+                    Height =360
+                    BorderColor =12632256
+                    Name ="boxHeaderControls"
+                    GridlineColor =0
+                    HorizontalAnchor =2
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =14280
+                    LayoutCachedHeight =1200
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =60
+                    Top =840
+                    Width =485
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label0"
+                    Caption ="#"
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =545
+                    LayoutCachedHeight =1200
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =600
+                    Top =840
+                    Width =965
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label1"
+                    Caption ="Status"
+                    LayoutCachedLeft =600
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =1565
+                    LayoutCachedHeight =1200
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =2040
+                    Top =840
+                    Width =1925
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label2"
+                    Caption ="Vendor"
+                    LayoutCachedLeft =2040
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =3965
+                    LayoutCachedHeight =1200
+                    ColumnStart =2
+                    ColumnEnd =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =8280
+                    Top =840
+                    Width =1257
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label3"
+                    Caption ="Submitted"
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =9537
+                    LayoutCachedHeight =1200
+                    ColumnStart =3
+                    ColumnEnd =3
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =4740
+                    Top =840
+                    Width =1380
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label8"
+                    Caption ="Total"
+                    LayoutCachedLeft =4740
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =6120
+                    LayoutCachedHeight =1200
+                    ColumnStart =8
+                    ColumnEnd =8
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =12960
+                    Top =840
+                    Width =1260
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label11"
+                    Caption ="Paid Date"
+                    LayoutCachedLeft =12960
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =14220
+                    LayoutCachedHeight =1200
+                    ColumnStart =9
+                    ColumnEnd =9
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Image
+                    PictureType =2
+                    Left =120
+                    Top =60
+                    Width =720
+                    Height =720
+                    Name ="imgNorthwindTradersLogo"
+                    ControlTipText ="Northwind Traders Logo"
+                    Picture ="NW2Logo"
+                    GroupTable =2
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =840
+                    LayoutCachedHeight =780
+                    TabIndex =2
+                    LayoutGroup =1
+                    GroupTable =2
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =900
+                    Top =60
+                    Width =5160
+                    Height =720
+                    FontSize =18
+                    FontWeight =700
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Auto_Header0"
+                    Caption ="Purchase Orders"
+                    FontName ="Calibri Light"
+                    GroupTable =2
+                    LayoutCachedLeft =900
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =6060
+                    LayoutCachedHeight =780
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GroupTable =2
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =6300
+                    Top =840
+                    Width =1440
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label128"
+                    Caption ="Submitted By"
+                    LayoutCachedLeft =6300
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =7740
+                    LayoutCachedHeight =1200
+                    ColumnStart =8
+                    ColumnEnd =8
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =11640
+                    Top =840
+                    Width =1257
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label131"
+                    Caption ="Approved"
+                    LayoutCachedLeft =11640
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =12897
+                    LayoutCachedHeight =1200
+                    ColumnStart =3
+                    ColumnEnd =3
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =9660
+                    Top =840
+                    Width =1440
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label132"
+                    Caption ="Approved By"
+                    LayoutCachedLeft =9660
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =11100
+                    LayoutCachedHeight =1200
+                    ColumnStart =8
+                    ColumnEnd =8
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    AccessKey =65
+                    Left =10740
+                    Top =120
+                    Width =1725
+                    FontSize =13
+                    FontWeight =700
+                    Name ="cmdAddPO"
+                    Caption ="&Add PO"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Click or [Alt-A]"
+                    UnicodeAccessKey =65
+                    HorizontalAnchor =1
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =10740
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =12465
+                    LayoutCachedHeight =480
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =4342085
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =-2147483611
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =1
+                    HoverTint =100.0
+                    HoverShade =60.0
+                    PressedThemeColorIndex =1
+                    PressedShade =60.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    AccessKey =73
+                    PictureType =2
+                    Left =13680
+                    Top =120
+                    Width =360
+                    TabIndex =1
+                    Name ="cmdInfo"
+                    Caption ="&Info"
+                    Picture ="Help"
+                    HyperlinkAddress ="https://support.microsoft.com/topic/74482757-0b12-4639-beae-b8905f0f3ca9"
+                    UnicodeAccessKey =73
+                    HorizontalAnchor =1
+                    BackStyle =0
+
+                    LayoutCachedLeft =13680
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =14040
+                    LayoutCachedHeight =480
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    Gradient =0
+                    OldBorderStyle =0
+                End
+            End
+        End
+        Begin Section
+            Height =360
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =60
+                    Width =480
+                    Height =360
+                    ColumnWidth =1170
+                    TabIndex =2
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="PurchaseOrderID"
+                    ControlSource ="PurchaseOrderID"
+                    OnClick ="[Event Procedure]"
+
+                    LayoutCachedLeft =60
+                    LayoutCachedWidth =540
+                    LayoutCachedHeight =360
+                    DisplayAsHyperlink =2
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Width =1260
+                    Height =360
+                    TabIndex =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="SubmittedDate"
+                    ControlSource ="SubmittedDate"
+                    Format ="Short Date"
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedWidth =9540
+                    LayoutCachedHeight =360
+                    ColumnStart =3
+                    ColumnEnd =3
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4740
+                    Height =360
+                    TabIndex =4
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="TotalCost"
+                    ControlSource ="TotalCost"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =4740
+                    LayoutCachedWidth =6180
+                    LayoutCachedHeight =360
+                    ColumnStart =8
+                    ColumnEnd =8
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =12960
+                    Width =1260
+                    Height =360
+                    TabIndex =5
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="PaymentDate"
+                    ControlSource ="PaymentDate"
+                    Format ="Short Date"
+
+                    LayoutCachedLeft =12960
+                    LayoutCachedWidth =14220
+                    LayoutCachedHeight =360
+                    ColumnStart =9
+                    ColumnEnd =9
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =600
+                    Width =1320
+                    Height =360
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="StatusName"
+                    ControlSource ="StatusName"
+
+                    LayoutCachedLeft =600
+                    LayoutCachedWidth =1920
+                    LayoutCachedHeight =360
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    ForeShade =50.0
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1980
+                    Width =2700
+                    Height =360
+                    TabIndex =1
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="CompanyName"
+                    ControlSource ="CompanyName"
+
+                    LayoutCachedLeft =1980
+                    LayoutCachedWidth =4680
+                    LayoutCachedHeight =360
+                    ColumnStart =2
+                    ColumnEnd =2
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    ForeShade =50.0
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =6240
+                    Width =1980
+                    Height =360
+                    TabIndex =6
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Submitter"
+                    ControlSource ="Submitter"
+
+                    LayoutCachedLeft =6240
+                    LayoutCachedWidth =8220
+                    LayoutCachedHeight =360
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    ForeShade =50.0
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =11640
+                    Width =1260
+                    Height =360
+                    TabIndex =7
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="ApprovedDate"
+                    ControlSource ="ApprovedDate"
+                    Format ="Short Date"
+
+                    LayoutCachedLeft =11640
+                    LayoutCachedWidth =12900
+                    LayoutCachedHeight =360
+                    ColumnStart =3
+                    ColumnEnd =3
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =9600
+                    Width =1980
+                    Height =360
+                    TabIndex =8
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Approver"
+                    ControlSource ="Approver"
+
+                    LayoutCachedLeft =9600
+                    LayoutCachedWidth =11580
+                    LayoutCachedHeight =360
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    ForeShade =50.0
+                End
+            End
+        End
+        Begin FormFooter
+            Height =480
+            BackColor =-2147483612
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4740
+                    Top =60
+                    Height =360
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtSumTotalCost"
+                    ControlSource ="=Sum([TotalCost])"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =4740
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =6180
+                    LayoutCachedHeight =420
+                    ColumnStart =8
+                    ColumnEnd =8
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =3780
+                            Top =60
+                            Width =900
+                            Height =360
+                            FontSize =12
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =4210752
+                            Name ="Label124"
+                            Caption ="Sum:"
+                            LayoutCachedLeft =3780
+                            LayoutCachedTop =60
+                            LayoutCachedWidth =4680
+                            LayoutCachedHeight =420
+                            ColumnStart =8
+                            ColumnEnd =8
+                            ForeTint =75.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1020
+                    Top =60
+                    Width =720
+                    Height =360
+                    TabIndex =1
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Text125"
+                    ControlSource ="=Count([PurchaseOrderID])"
+                    Format ="General Number"
+
+                    LayoutCachedLeft =1020
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1740
+                    LayoutCachedHeight =420
+                    ColumnStart =8
+                    ColumnEnd =8
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =60
+                            Top =60
+                            Width =900
+                            Height =360
+                            FontSize =12
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =4210752
+                            Name ="Label126"
+                            Caption ="Count:"
+                            LayoutCachedLeft =60
+                            LayoutCachedTop =60
+                            LayoutCachedWidth =960
+                            LayoutCachedHeight =420
+                            ColumnStart =8
+                            ColumnEnd =8
+                            ForeTint =75.0
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "frmPurchaseOrderList.cls"

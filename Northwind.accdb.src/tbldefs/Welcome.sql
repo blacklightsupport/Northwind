@@ -1,0 +1,6 @@
+﻿CREATE TABLE [Welcome] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [Welcome] LONGTEXT,
+  [Learn] LONGTEXT,
+  [DataMacro] LONGTEXT
+)

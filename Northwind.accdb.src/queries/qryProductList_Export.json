@@ -1,0 +1,85 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryProductList_Export"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Allocated Inventory": {
+        "ColumnOrder": 5,
+        "ColumnWidth": 2250,
+        "AggregateType": -1
+      },
+      "Inventory To Sell": {
+        "ColumnOrder": 6,
+        "ColumnWidth": 2235,
+        "AggregateType": -1
+      },
+      "Min Reorder Qty": {
+        "ColumnWidth": 1950,
+        "AggregateType": -1
+      },
+      "Product": {
+        "ColumnOrder": 3,
+        "AggregateType": -1
+      },
+      "Product Code": {
+        "ColumnOrder": 2,
+        "AggregateType": -1
+      },
+      "Product ID": {
+        "ColumnOrder": 1,
+        "AggregateType": -1
+      },
+      "Products.Discontinued": {
+        "ColumnWidth": 1650,
+        "AggregateType": -1
+      },
+      "Qty On Order": {
+        "ColumnOrder": 7,
+        "ColumnWidth": 1650,
+        "AggregateType": -1
+      },
+      "Reorder Level": {
+        "ColumnOrder": 8,
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "Target Level": {
+        "ColumnOrder": 9,
+        "ColumnWidth": 1500,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 3625,
+        "bottom": 1822
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 3605,
+        "bottom": -1
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 246,
+          "Bottom": 201,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

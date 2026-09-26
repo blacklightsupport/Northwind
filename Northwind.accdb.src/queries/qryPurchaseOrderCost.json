@@ -1,0 +1,53 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryPurchaseOrderCost"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "PurchaseOrders.PurchaseOrderID": {
+        "ColumnWidth": 1995,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 126
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "PurchaseOrderDetails",
+          "Alias": "",
+          "Left": 226,
+          "Top": 12,
+          "Right": 370,
+          "Bottom": 254,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrders",
+          "Alias": "",
+          "Left": 30,
+          "Top": 5,
+          "Right": 174,
+          "Bottom": 149,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryCompanyList"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 138
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TaxStatus",
+          "Alias": "",
+          "Left": 268,
+          "Top": 178,
+          "Right": 412,
+          "Bottom": 322,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "CompanyTypes",
+          "Alias": "",
+          "Left": 240,
+          "Top": 12,
+          "Right": 384,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Companies",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 207,
+          "Bottom": 319,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

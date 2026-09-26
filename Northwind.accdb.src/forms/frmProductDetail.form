@@ -1,0 +1,1842 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    BorderStyle =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridX =24
+    GridY =24
+    Width =17340
+    DatasheetFontHeight =11
+    ItemSuffix =446
+    Right =50000
+    Bottom =50000
+    AfterInsert ="[Event Procedure]"
+    AfterDelConfirm ="[Event Procedure]"
+    Filter ="ProductID = 1"
+    RecSrcDt = Begin
+        0xcc8411e655dbe540
+    End
+    RecordSource ="qryProductDetail"
+    Caption ="Product: Chai"
+    OnCurrent ="[Event Procedure]"
+    OnDelete ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    AfterUpdate ="[Event Procedure]"
+    OnClose ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    OnActivate ="[Event Procedure]"
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    SplitFormSplitterBar =0
+    NavigationCaption ="Product:"
+    SplitFormSplitterBar =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =255
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    WaitForPostProcessing =255
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            BorderThemeColorIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin Tab
+            FontSize =11
+            FontName ="Calibri Light"
+            ThemeFontIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =3
+            BackThemeColorIndex =1
+            BackShade =85.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =2
+            BorderTint =60.0
+            HoverThemeColorIndex =1
+            PressedThemeColorIndex =1
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin Page
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Attachment
+            BackStyle =0
+            BorderLineStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            LabelX =-1800
+            AddColon =0
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1264
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    Top =840
+                    Width =17340
+                    Height =420
+                    BorderColor =12632256
+                    Name ="boxHeaderControls"
+                    GridlineColor =0
+                    HorizontalAnchor =2
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =17340
+                    LayoutCachedHeight =1260
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Image
+                    PictureType =2
+                    Left =120
+                    Top =60
+                    Width =720
+                    Height =720
+                    Name ="imgNorthwindTradersLogo"
+                    ControlTipText ="Northwind Traders Logo"
+                    Picture ="NW2Logo"
+                    GroupTable =2
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =840
+                    LayoutCachedHeight =780
+                    TabIndex =6
+                    LayoutGroup =1
+                    GroupTable =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =65
+                    Left =10680
+                    Top =864
+                    Width =1680
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="cmdAddProduct"
+                    Caption ="&Add Product"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =65
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =10680
+                    LayoutCachedTop =864
+                    LayoutCachedWidth =12360
+                    LayoutCachedHeight =1224
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =68
+                    Left =15000
+                    Top =864
+                    Width =2040
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="cmdDeleteProduct"
+                    Caption ="&Delete Product"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =68
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =15000
+                    LayoutCachedTop =864
+                    LayoutCachedWidth =17040
+                    LayoutCachedHeight =1224
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                    Overlaps =1
+                End
+                Begin ComboBox
+                    OverlapFlags =215
+                    AccessKey =71
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =2880
+                    Left =2340
+                    Top =909
+                    Width =2940
+                    Height =315
+                    ColumnOrder =0
+                    TabIndex =4
+                    Name ="cboFindProduct"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT qryProductDetail.ProductID, qryProductDetail.ProductName FROM qryProductD"
+                        "etail ORDER BY qryProductDetail.ProductName; "
+                    ColumnWidths ="0;1440"
+                    AfterUpdate ="[Event Procedure]"
+                    UnicodeAccessKey =71
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+
+                    LayoutCachedLeft =2340
+                    LayoutCachedTop =909
+                    LayoutCachedWidth =5280
+                    LayoutCachedHeight =1224
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OldBorderStyle =1
+                            OverlapFlags =215
+                            TextAlign =1
+                            Left =600
+                            Top =864
+                            Width =1605
+                            Height =360
+                            FontSize =13
+                            FontWeight =700
+                            LeftMargin =29
+                            TopMargin =22
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblFindProduct"
+                            Caption ="&Go to Product:"
+                            LayoutCachedLeft =600
+                            LayoutCachedTop =864
+                            LayoutCachedWidth =2205
+                            LayoutCachedHeight =1224
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderTint =100.0
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =82
+                    Left =12720
+                    Top =864
+                    Width =1920
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =2
+                    Name ="cmdReorderProduct"
+                    Caption ="&Reorder Product"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =82
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =12720
+                    LayoutCachedTop =864
+                    LayoutCachedWidth =14640
+                    LayoutCachedHeight =1224
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =900
+                    Top =60
+                    Width =12180
+                    Height =720
+                    ColumnOrder =3
+                    FontSize =18
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Auto_Header0"
+                    ControlSource ="=IIf(Nz([ProductID],0)>0,\"Product: \" & [ProductName],\"New Product\")"
+                    GroupTable =2
+
+                    LayoutCachedLeft =900
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =13080
+                    LayoutCachedHeight =780
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    BorderThemeColorIndex =2
+                    BorderShade =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GroupTable =2
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    AccessKey =73
+                    PictureType =2
+                    Left =16920
+                    Top =180
+                    Width =360
+                    TabIndex =5
+                    Name ="cmdInfo"
+                    Caption ="&Info"
+                    Picture ="Help"
+                    HyperlinkAddress ="https://support.microsoft.com/topic/5f829aa2-41df-4e0a-bab4-5a8036ae741c"
+                    UnicodeAccessKey =73
+                    HorizontalAnchor =1
+                    BackStyle =0
+
+                    LayoutCachedLeft =16920
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =17280
+                    LayoutCachedHeight =540
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    Gradient =0
+                    OldBorderStyle =0
+                End
+            End
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =6600
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =690
+                    Width =1500
+                    Height =345
+                    ColumnOrder =13
+                    FontWeight =700
+                    TabIndex =1
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtProductCode"
+                    ControlSource ="ProductCode"
+                    StatusBarText ="Short unique code for each product"
+                    ControlTipText ="Product code is auto-generated based on Product Category in sub SetProductCode"
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =3330
+                    LayoutCachedHeight =1035
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =690
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label176"
+                            Caption ="Product Code"
+                            ControlTipText ="Product code is auto-generated based on Product Category in sub SetProductCode"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =690
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =1035
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =1095
+                    Width =4485
+                    Height =345
+                    ColumnWidth =2250
+                    ColumnOrder =14
+                    TabIndex =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtProductName"
+                    ControlSource ="ProductName"
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =1095
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =1440
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =1095
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label177"
+                            Caption ="Product Name"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =1440
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =93
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =1905
+                    Width =4485
+                    Height =1860
+                    ColumnWidth =5940
+                    ColumnOrder =15
+                    TabIndex =5
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtProductDescription"
+                    ControlSource ="ProductDescription"
+                    GroupTable =3
+                    BottomPadding =0
+                    TextFormat =1
+                    VerticalAnchor =2
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =1905
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =3765
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =1905
+                            Width =1725
+                            Height =1860
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label178"
+                            Caption ="Product\015\012Description"
+                            GroupTable =3
+                            BottomPadding =0
+                            VerticalAnchor =2
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =1905
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =3765
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =4575
+                    Width =1500
+                    Height =345
+                    ColumnOrder =16
+                    TabIndex =7
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtUnitPrice"
+                    ControlSource ="UnitPrice"
+                    Format ="£#,##0.00;-£#,##0.00"
+                    StatusBarText ="Amount per item we charge to our customers"
+                    ControlTipText ="Amount per item we charge to our customers"
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =4575
+                    LayoutCachedWidth =3330
+                    LayoutCachedHeight =4920
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =4575
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label179"
+                            Caption ="Unit Price"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =4575
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =4920
+                            RowStart =7
+                            RowEnd =7
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin Label
+                    OverlapFlags =87
+                    TextAlign =3
+                    Left =1830
+                    Top =3765
+                    Width =4485
+                    Height =345
+                    FontSize =9
+                    LeftMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="lblZoomTip"
+                    Caption ="TIP: Use Shift+F2 for Zoom window"
+                    GroupTable =3
+                    TopPadding =0
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =3765
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =4110
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =4980
+                    Width =1500
+                    Height =345
+                    ColumnOrder =7
+                    TabIndex =8
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtStandardUnitCost"
+                    ControlSource ="StandardUnitCost"
+                    Format ="£#,##0.00;-£#,##0.00"
+                    StatusBarText ="Amount per item our vendors charge to us\015\012"
+                    ControlTipText ="Amount per item our vendors charge to us\015\012"
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =4980
+                    LayoutCachedWidth =3330
+                    LayoutCachedHeight =5325
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =4980
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label215"
+                            Caption =" Unit Cost"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =4980
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =5325
+                            RowStart =8
+                            RowEnd =8
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin EmptyCell
+                    Left =45
+                    Top =3765
+                    Width =1725
+                    Height =345
+                    Name ="EmptyCell228"
+                    GroupTable =3
+                    TopPadding =0
+                    LayoutCachedLeft =45
+                    LayoutCachedTop =3765
+                    LayoutCachedWidth =1770
+                    LayoutCachedHeight =4110
+                    RowStart =5
+                    RowEnd =5
+                    LayoutGroup =2
+                    GroupTable =3
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =5385
+                    Width =1500
+                    Height =345
+                    ColumnOrder =8
+                    TabIndex =9
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtReorderLevel"
+                    ControlSource ="ReorderLevel"
+                    StatusBarText ="Inventory quantity that triggers reordering. Should be >= Target Level"
+                    DefaultValue ="\"\""
+                    ControlTipText ="Inventory quantity that triggers reordering. Should be >= Target Level"
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =5385
+                    LayoutCachedWidth =3330
+                    LayoutCachedHeight =5730
+                    RowStart =9
+                    RowEnd =9
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =5385
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label232"
+                            Caption ="Reorder Level"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =5385
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =5730
+                            RowStart =9
+                            RowEnd =9
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =5790
+                    Width =1500
+                    Height =345
+                    ColumnOrder =9
+                    TabIndex =10
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtTargetLevel"
+                    ControlSource ="TargetLevel"
+                    StatusBarText ="Desired minimum Inventory level"
+                    AfterUpdate ="[Event Procedure]"
+                    ControlTipText ="Desired minimum Inventory level"
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =5790
+                    LayoutCachedWidth =3330
+                    LayoutCachedHeight =6135
+                    RowStart =10
+                    RowEnd =10
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =5790
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label233"
+                            Caption ="Target Level"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =5790
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =6135
+                            RowStart =10
+                            RowEnd =10
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =4170
+                    Width =4485
+                    Height =345
+                    ColumnOrder =5
+                    TabIndex =6
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtQuantityPerUnit"
+                    ControlSource ="QuantityPerUnit"
+                    StatusBarText ="Number of items in a container. Informational only; not used in any calculations"
+                        "."
+                    ControlTipText ="Number of items in a container. Informational only; not used in any calculations"
+                        "."
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =4170
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =4515
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =4170
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label234"
+                            Caption ="Qty Per Unit"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =4170
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =4515
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin CheckBox
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    Left =5295
+                    Top =690
+                    Width =1020
+                    Height =345
+                    ColumnOrder =3
+                    TabIndex =2
+                    Name ="chkDiscontinued"
+                    ControlSource ="Discontinued"
+                    AfterUpdate ="[Event Procedure]"
+                    GroupTable =3
+
+                    LayoutCachedLeft =5295
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =1035
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =3915
+                            Top =690
+                            Width =1320
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="lblDiscontinued"
+                            Caption ="Discontinued"
+                            GroupTable =3
+                            LayoutCachedLeft =3915
+                            LayoutCachedTop =690
+                            LayoutCachedWidth =5235
+                            LayoutCachedHeight =1035
+                            RowStart =1
+                            RowEnd =1
+                            ColumnStart =3
+                            ColumnEnd =3
+                            LayoutGroup =2
+                            BackThemeColorIndex =-1
+                            ForeThemeColorIndex =-1
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =6195
+                    Width =1500
+                    Height =345
+                    ColumnOrder =10
+                    TabIndex =11
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtMinimumReorderQuantity"
+                    ControlSource ="MinimumReorderQuantity"
+                    StatusBarText ="Minimum quantity to reorder regardless of inventory levels\015\012"
+                    ControlTipText ="Minimum quantity to reorder regardless of inventory levels\015\012"
+                    GroupTable =3
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =6195
+                    LayoutCachedWidth =3330
+                    LayoutCachedHeight =6540
+                    RowStart =11
+                    RowEnd =11
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =6195
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label236"
+                            Caption ="Min Reorder Qty"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =6195
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =6540
+                            RowStart =11
+                            RowEnd =11
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1830
+                    Top =1500
+                    Width =4485
+                    Height =340
+                    ColumnOrder =4
+                    TabIndex =4
+                    Name ="cboProductCategoryID"
+                    ControlSource ="ProductCategoryID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qrycboProductCategory"
+                    ColumnWidths ="0;4320"
+                    AfterUpdate ="[Event Procedure]"
+                    GroupTable =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =1500
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =1840
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =1500
+                            Width =1725
+                            Height =340
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label237"
+                            Caption ="Product Category"
+                            GroupTable =3
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =1500
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =1840
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =5295
+                    Top =4575
+                    Width =1020
+                    Height =345
+                    ColumnOrder =6
+                    TabIndex =12
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtQtyAvailable"
+                    StatusBarText ="Available: Quantity on the shelf less quantity allocated on customer orders\015\012"
+                    DefaultValue ="0"
+                    ControlTipText ="Available: Quantity on the shelf less quantity allocated on customer orders\015\012"
+                    GroupTable =3
+
+                    LayoutCachedLeft =5295
+                    LayoutCachedTop =4575
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =4920
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =3390
+                            Top =4575
+                            Width =1845
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="lblQtyAvailable"
+                            Caption ="Qty Avail. to Sell"
+                            GroupTable =3
+                            LayoutCachedLeft =3390
+                            LayoutCachedTop =4575
+                            LayoutCachedWidth =5235
+                            LayoutCachedHeight =4920
+                            RowStart =7
+                            RowEnd =7
+                            ColumnStart =2
+                            ColumnEnd =3
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =5295
+                    Top =5790
+                    Width =1020
+                    Height =345
+                    ColumnOrder =2
+                    TabIndex =15
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtQtyOnOrder"
+                    StatusBarText ="Quantity on purchase orders not yet received"
+                    DefaultValue ="0"
+                    ControlTipText ="Quantity on purchase orders not yet received"
+                    GroupTable =3
+
+                    LayoutCachedLeft =5295
+                    LayoutCachedTop =5790
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =6135
+                    RowStart =10
+                    RowEnd =10
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =3390
+                            Top =5790
+                            Width =1845
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="lblQtyOnOrder"
+                            Caption ="Qty on Order"
+                            GroupTable =3
+                            LayoutCachedLeft =3390
+                            LayoutCachedTop =5790
+                            LayoutCachedWidth =5235
+                            LayoutCachedHeight =6135
+                            RowStart =10
+                            RowEnd =10
+                            ColumnStart =2
+                            ColumnEnd =3
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =5295
+                    Top =6195
+                    Width =1020
+                    Height =345
+                    ColumnOrder =11
+                    TabIndex =16
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtQtyToReorder"
+                    StatusBarText ="Suggested re-order quantity to ensure target level"
+                    DefaultValue ="0"
+                    ControlTipText ="Suggested re-order quantity to ensure target level"
+                    GroupTable =3
+
+                    LayoutCachedLeft =5295
+                    LayoutCachedTop =6195
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =6540
+                    RowStart =11
+                    RowEnd =11
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    ForeThemeColorIndex =-1
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =3390
+                            Top =6195
+                            Width =1845
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="lblQtyToReorder"
+                            Caption ="Qty to Reorder"
+                            GroupTable =3
+                            LayoutCachedLeft =3390
+                            LayoutCachedTop =6195
+                            LayoutCachedWidth =5235
+                            LayoutCachedHeight =6540
+                            RowStart =11
+                            RowEnd =11
+                            ColumnStart =2
+                            ColumnEnd =3
+                            LayoutGroup =2
+                            ForeThemeColorIndex =-1
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =5295
+                    Top =5385
+                    Width =1020
+                    Height =345
+                    ColumnOrder =1
+                    TabIndex =14
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtQtyAllocated"
+                    StatusBarText ="Quantity on customer orders that can be fulfilled because of sufficient stock"
+                    DefaultValue ="0"
+                    ControlTipText ="Quantity on customer orders that can be fulfilled because of sufficient stock"
+                    GroupTable =3
+
+                    LayoutCachedLeft =5295
+                    LayoutCachedTop =5385
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =5730
+                    RowStart =9
+                    RowEnd =9
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =3390
+                            Top =5385
+                            Width =1845
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="lblQtyAllocated"
+                            Caption ="Qty Allocated"
+                            GroupTable =3
+                            LayoutCachedLeft =3390
+                            LayoutCachedTop =5385
+                            LayoutCachedWidth =5235
+                            LayoutCachedHeight =5730
+                            RowStart =9
+                            RowEnd =9
+                            ColumnStart =2
+                            ColumnEnd =3
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin Tab
+                    OverlapFlags =85
+                    Left =6540
+                    Top =300
+                    Width =10680
+                    Height =6030
+                    TabIndex =17
+                    Name ="tabProducts"
+                    FontName ="Calibri"
+                    OnChange ="[Event Procedure]"
+                    HorizontalAnchor =2
+                    VerticalAnchor =2
+
+                    LayoutCachedLeft =6540
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =17220
+                    LayoutCachedHeight =6330
+                    ThemeFontIndex =1
+                    BorderThemeColorIndex =4
+                    BorderTint =100.0
+                    Begin
+                        Begin Page
+                            OverlapFlags =87
+                            AccessKey =86
+                            Left =6615
+                            Top =780
+                            Width =10530
+                            Height =5475
+                            Name ="pgVendors"
+                            Caption ="Product &Vendors"
+                            UnicodeAccessKey =86
+                            LayoutCachedLeft =6615
+                            LayoutCachedTop =780
+                            LayoutCachedWidth =17145
+                            LayoutCachedHeight =6255
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =215
+                                    Left =6659
+                                    Top =839
+                                    Width =10439
+                                    Height =5100
+                                    Name ="ctlVendorSubform"
+                                    SourceObject ="Form.sfrmProductDetail_Vendors"
+                                    LinkChildFields ="ProductID"
+                                    LinkMasterFields ="ProductID"
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =6659
+                                    LayoutCachedTop =839
+                                    LayoutCachedWidth =17098
+                                    LayoutCachedHeight =5939
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            AccessKey =67
+                            Left =6615
+                            Top =780
+                            Width =10530
+                            Height =5475
+                            Name ="pgOrders"
+                            Caption ="&Customer Orders"
+                            UnicodeAccessKey =67
+                            LayoutCachedLeft =6615
+                            LayoutCachedTop =780
+                            LayoutCachedWidth =17145
+                            LayoutCachedHeight =6255
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =6660
+                                    Top =839
+                                    Width =10439
+                                    Height =5100
+                                    Name ="ctlOrderSubform"
+                                    LinkChildFields ="ProductID"
+                                    LinkMasterFields ="ProductID"
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =6660
+                                    LayoutCachedTop =839
+                                    LayoutCachedWidth =17099
+                                    LayoutCachedHeight =5939
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            AccessKey =80
+                            Left =6615
+                            Top =780
+                            Width =10530
+                            Height =5475
+                            Name ="PgPurchaseOrders"
+                            Caption ="&Purchase Orders"
+                            UnicodeAccessKey =80
+                            LayoutCachedLeft =6615
+                            LayoutCachedTop =780
+                            LayoutCachedWidth =17145
+                            LayoutCachedHeight =6255
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =6659
+                                    Top =839
+                                    Width =10439
+                                    Height =5100
+                                    Name ="ctlPOSubform"
+                                    LinkChildFields ="ProductID"
+                                    LinkMasterFields ="ProductID"
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =6659
+                                    LayoutCachedTop =839
+                                    LayoutCachedWidth =17098
+                                    LayoutCachedHeight =5939
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            AccessKey =83
+                            Left =6615
+                            Top =780
+                            Width =10530
+                            Height =5475
+                            Name ="pgInventory"
+                            Caption ="&Stock Takes"
+                            UnicodeAccessKey =83
+                            LayoutCachedLeft =6615
+                            LayoutCachedTop =780
+                            LayoutCachedWidth =17145
+                            LayoutCachedHeight =6255
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =6659
+                                    Top =839
+                                    Width =10439
+                                    Height =5100
+                                    Name ="ctlInventorySubform"
+                                    LinkChildFields ="ProductID"
+                                    LinkMasterFields ="ProductID"
+                                    OnEnter ="[Event Procedure]"
+                                    OnExit ="[Event Procedure]"
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =6659
+                                    LayoutCachedTop =839
+                                    LayoutCachedWidth =17098
+                                    LayoutCachedHeight =5939
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin EmptyCell
+                    Left =3390
+                    Top =285
+                    Width =1845
+                    Height =345
+                    Name ="EmptyCell339"
+                    GroupTable =3
+                    TopPadding =0
+                    LayoutCachedLeft =3390
+                    LayoutCachedTop =285
+                    LayoutCachedWidth =5235
+                    LayoutCachedHeight =630
+                    ColumnStart =2
+                    ColumnEnd =3
+                    LayoutGroup =2
+                    GroupTable =3
+                End
+                Begin EmptyCell
+                    Left =5295
+                    Top =285
+                    Width =1020
+                    Height =345
+                    Name ="EmptyCell340"
+                    GroupTable =3
+                    TopPadding =0
+                    LayoutCachedLeft =5295
+                    LayoutCachedTop =285
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =630
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =285
+                    Width =1500
+                    Height =345
+                    ColumnOrder =12
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtProductID"
+                    ControlSource ="ProductID"
+                    GroupTable =3
+                    TopPadding =0
+
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =285
+                    LayoutCachedWidth =3330
+                    LayoutCachedHeight =630
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =45
+                            Top =285
+                            Width =1725
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="Label343"
+                            Caption ="Product ID"
+                            GroupTable =3
+                            TopPadding =0
+                            LayoutCachedLeft =45
+                            LayoutCachedTop =285
+                            LayoutCachedWidth =1770
+                            LayoutCachedHeight =630
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin EmptyCell
+                    Left =3390
+                    Top =690
+                    Width =470
+                    Height =345
+                    Name ="EmptyCell351"
+                    GroupTable =3
+                    LayoutCachedLeft =3390
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =3860
+                    LayoutCachedHeight =1035
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =2
+                    GroupTable =3
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =5295
+                    Top =4980
+                    Width =1020
+                    Height =345
+                    ColumnOrder =0
+                    TabIndex =13
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtQtyNoStock"
+                    StatusBarText ="Quantity on customer orders that can't be fulfilled because of insufficient stoc"
+                        "k"
+                    DefaultValue ="0"
+                    ControlTipText ="Quantity on customer orders that can't be fulfilled because of insufficient stoc"
+                        "k"
+                    GroupTable =3
+
+                    LayoutCachedLeft =5295
+                    LayoutCachedTop =4980
+                    LayoutCachedWidth =6315
+                    LayoutCachedHeight =5325
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =2
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =3390
+                            Top =4980
+                            Width =1845
+                            Height =345
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="lblQtyNoStock"
+                            Caption ="Qty No Stock"
+                            GroupTable =3
+                            LayoutCachedLeft =3390
+                            LayoutCachedTop =4980
+                            LayoutCachedWidth =5235
+                            LayoutCachedHeight =5325
+                            RowStart =8
+                            RowEnd =8
+                            ColumnStart =2
+                            ColumnEnd =3
+                            LayoutGroup =2
+                            ForeTint =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =315
+            BackColor =-2147483612
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =5820
+                    Width =11400
+                    Height =315
+                    ColumnOrder =0
+                    FontSize =9
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    ForeColor =8355711
+                    Name ="txtModified"
+                    ControlSource ="=RecordModifiedString([AddedBy],[AddedOn],[ModifiedBy],[ModifiedOn])"
+                    HorizontalAnchor =1
+                    VerticalAnchor =1
+
+                    LayoutCachedLeft =5820
+                    LayoutCachedWidth =17220
+                    LayoutCachedHeight =315
+                    BorderThemeColorIndex =0
+                    BorderTint =50.0
+                    BorderShade =100.0
+                    ForeTint =50.0
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "frmProductDetail.cls"

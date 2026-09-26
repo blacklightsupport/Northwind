@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "rptSalesByEmployee Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "Letter"
+    },
+    "Margins": {
+      "LeftMargin": 0.2514,
+      "TopMargin": 0.25,
+      "RightMargin": 0.25,
+      "BotMargin": 0.25,
+      "DataOnly": false,
+      "Width": 8.7083,
+      "Height": 0.2153,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

@@ -1,0 +1,44 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qrycboEmployees"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "qryEmployees.FullNameFNLN": {
+        "ColumnWidth": 3060,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 288
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "qryEmployees",
+          "Alias": "",
+          "Left": 298,
+          "Top": 25,
+          "Right": 442,
+          "Bottom": 481,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

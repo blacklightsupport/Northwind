@@ -1,0 +1,190 @@
+﻿{
+  "Info": {
+    "Class": "clsDbForm",
+    "Description": "frmProductList Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "Letter"
+    },
+    "Margins": {
+      "LeftMargin": 0.25,
+      "TopMargin": 0.25,
+      "RightMargin": 0.25,
+      "BotMargin": 0.25,
+      "DataOnly": false,
+      "Width": 5,
+      "Height": 3,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    },
+    "ConditionalFormatting": {
+      "ProductID": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": true,
+            "ForeColor": "RGB(0,0,255)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      },
+      "QuantityOnOrder": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      },
+      "ToSell": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          },
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(0,0,0)",
+            "BackColor": "RGB(255,255,153)",
+            "Expression1": "[Discontinued]=False And [ToSell]<=[ReorderLevel]"
+          }
+        ]
+      },
+      "Allocated": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      },
+      "MinimumReorderQuantity": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      },
+      "TargetLevel": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      },
+      "ReorderLevel": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          },
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(0,0,0)",
+            "BackColor": "RGB(255,255,153)",
+            "Expression1": "[Discontinued]=False And [ToSell]<=[ReorderLevel]"
+          }
+        ]
+      },
+      "ProductName": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      },
+      "ProductCode": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      },
+      "NoStock": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": true,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(86,118,157)",
+            "BackColor": "RGB(198,209,222)",
+            "Expression1": "[Discontinued]<>0"
+          }
+        ]
+      }
+    }
+  }
+}

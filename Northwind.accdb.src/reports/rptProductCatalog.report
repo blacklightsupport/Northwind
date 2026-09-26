@@ -1,0 +1,735 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =9360
+    DatasheetFontHeight =11
+    ItemSuffix =38
+    OnNoData ="[Event Procedure]"
+    RecSrcDt = Begin
+        0xa9cdaf57cfefe540
+    End
+    RecordSource ="qryrptProductCatalog"
+    OnOpen ="[Event Procedure]"
+    OnClose ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    OnActivate ="[Event Procedure]"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            BorderThemeColorIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Attachment
+            BackStyle =0
+            BorderLineStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            LabelX =-1800
+            AddColon =0
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="=1"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="=2"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            KeepTogether =1
+            ControlSource ="ProductCategoryName"
+        End
+        Begin BreakLevel
+            ControlSource ="ProductName"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =11520
+            Name ="ReportHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =2820
+                    Top =4980
+                    Width =3420
+                    Height =600
+                    FontSize =20
+                    FontWeight =700
+                    Name ="Label18"
+                    Caption ="Fall Catalog"
+                    FontName ="Times New Roman"
+                    LayoutCachedLeft =2820
+                    LayoutCachedTop =4980
+                    LayoutCachedWidth =6240
+                    LayoutCachedHeight =5580
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =5
+                    ForeTint =100.0
+                    ForeShade =50.0
+                End
+                Begin Image
+                    PictureType =2
+                    Top =360
+                    Width =9360
+                    Height =4080
+                    Name ="Image19"
+                    Picture ="NW2Logo256"
+
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =4440
+                    TabIndex =1
+                End
+                Begin Subform
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    Left =1860
+                    Top =7860
+                    Width =5595
+                    Height =2579
+                    Name ="srptQuality"
+                    SourceObject ="Report.srptQuality"
+
+                    LayoutCachedLeft =1860
+                    LayoutCachedTop =7860
+                    LayoutCachedWidth =7455
+                    LayoutCachedHeight =10439
+                End
+                Begin PageBreak
+                    Top =11520
+                    Name ="PageBreak21"
+                End
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="PageHeaderSection"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =11400
+            Name ="GroupHeader2"
+            AlternateBackThemeColorIndex =1
+            BackThemeColorIndex =1
+            Begin
+                Begin Subform
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    Left =1020
+                    Top =240
+                    Width =6975
+                    Height =10679
+                    Name ="srptGastronomic"
+                    SourceObject ="Report.srptGastronomic"
+
+                    LayoutCachedLeft =1020
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =7995
+                    LayoutCachedHeight =10919
+                End
+                Begin PageBreak
+                    Top =11400
+                    Name ="PageBreak23"
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =9480
+            BreakLevel =1
+            Name ="GroupHeader3"
+            AlternateBackThemeColorIndex =1
+            BackThemeColorIndex =1
+            Begin
+                Begin PageBreak
+                    Top =9480
+                    Name ="PageBreak25"
+                End
+                Begin Subform
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    Left =1080
+                    Top =1440
+                    Width =7215
+                    Height =7079
+                    Name ="srptCatalog_TableOfContents"
+                    SourceObject ="Report.srptCatalog_TableOfContents"
+
+                    LayoutCachedLeft =1080
+                    LayoutCachedTop =1440
+                    LayoutCachedWidth =8295
+                    LayoutCachedHeight =8519
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =1140
+                    Top =420
+                    Width =7080
+                    Height =660
+                    TabIndex =1
+                    Name ="Text28"
+                    ControlSource ="=IIf(DCount(\"*\",\"Catalog_TableOfContents\")=0,\"Preview all pages and send to"
+                        " PDF to generate the current table of contents.\",\"\")"
+
+                    LayoutCachedLeft =1140
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =8220
+                    LayoutCachedHeight =1080
+                End
+                Begin Line
+                    Visible = NotDefault
+                    BorderWidth =2
+                    Left =4680
+                    Width =0
+                    Height =8640
+                    BorderColor =2366701
+                    Name ="Line34"
+                    LayoutCachedLeft =4680
+                    LayoutCachedWidth =4680
+                    LayoutCachedHeight =8640
+                    BorderThemeColorIndex =-1
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =1980
+            BreakLevel =2
+            OnPrint ="[Event Procedure]"
+            Name ="GroupHeader0"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =95.0
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Width =6300
+                    Height =585
+                    ColumnWidth =2540
+                    FontSize =22
+                    ForeColor =5855577
+                    Name ="ProductCategoryName"
+                    ControlSource ="ProductCategoryName"
+
+                    LayoutCachedWidth =6300
+                    LayoutCachedHeight =585
+                    ForeTint =65.0
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =4860
+                    Top =900
+                    Width =1020
+                    Height =315
+                    TabIndex =1
+                    Name ="txtMinPrice"
+                    ControlSource ="=Min([UnitPrice])"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =4860
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =5880
+                    LayoutCachedHeight =1215
+                    Begin
+                        Begin Label
+                            Left =3480
+                            Top =900
+                            Width =1320
+                            Height =315
+                            Name ="Label1"
+                            Caption ="Lowest Price:"
+                            LayoutCachedLeft =3480
+                            LayoutCachedTop =900
+                            LayoutCachedWidth =4800
+                            LayoutCachedHeight =1215
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =4860
+                    Top =1275
+                    Width =1020
+                    Height =315
+                    TabIndex =2
+                    Name ="txtMaxPrice"
+                    ControlSource ="=Max([UnitPrice])"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =4860
+                    LayoutCachedTop =1275
+                    LayoutCachedWidth =5880
+                    LayoutCachedHeight =1590
+                    Begin
+                        Begin Label
+                            Left =3480
+                            Top =1275
+                            Width =1320
+                            Height =315
+                            Name ="Label3"
+                            Caption ="Highest Price:"
+                            LayoutCachedLeft =3480
+                            LayoutCachedTop =1275
+                            LayoutCachedWidth =4800
+                            LayoutCachedHeight =1590
+                        End
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Top =1620
+                    Width =4260
+                    Height =315
+                    FontWeight =700
+                    Name ="Label5"
+                    Caption ="Product Name"
+                    LayoutCachedTop =1620
+                    LayoutCachedWidth =4260
+                    LayoutCachedHeight =1935
+                    BackThemeColorIndex =5
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =4260
+                    Top =1620
+                    Width =1320
+                    Height =315
+                    FontWeight =700
+                    Name ="Label6"
+                    Caption ="Product ID"
+                    LayoutCachedLeft =4260
+                    LayoutCachedTop =1620
+                    LayoutCachedWidth =5580
+                    LayoutCachedHeight =1935
+                    BackThemeColorIndex =5
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =5580
+                    Top =1620
+                    Width =2340
+                    Height =315
+                    FontWeight =700
+                    Name ="Label7"
+                    Caption ="Quantity Per Unit"
+                    LayoutCachedLeft =5580
+                    LayoutCachedTop =1620
+                    LayoutCachedWidth =7920
+                    LayoutCachedHeight =1935
+                    BackThemeColorIndex =5
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    BackStyle =1
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =7920
+                    Top =1620
+                    Width =1440
+                    Height =315
+                    FontWeight =700
+                    Name ="Label8"
+                    Caption ="Unit Price"
+                    LayoutCachedLeft =7920
+                    LayoutCachedTop =1620
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =1935
+                    BackThemeColorIndex =5
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OldBorderStyle =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =1440
+                    Top =900
+                    Width =600
+                    Height =315
+                    TabIndex =3
+                    Name ="txtItemCount"
+                    ControlSource ="=Count([UnitPrice])"
+                    Format ="Fixed"
+
+                    LayoutCachedLeft =1440
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =2040
+                    LayoutCachedHeight =1215
+                    Begin
+                        Begin Label
+                            Top =900
+                            Width =1380
+                            Height =315
+                            Name ="Label10"
+                            Caption ="Items Count:"
+                            LayoutCachedTop =900
+                            LayoutCachedWidth =1380
+                            LayoutCachedHeight =1215
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =1440
+                    Top =1260
+                    Width =1200
+                    Height =315
+                    TabIndex =4
+                    Name ="txtTotalSales"
+                    ControlSource ="=Sum([TotalSales])"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =1440
+                    LayoutCachedTop =1260
+                    LayoutCachedWidth =2640
+                    LayoutCachedHeight =1575
+                    Begin
+                        Begin Label
+                            Top =1260
+                            Width =1380
+                            Height =315
+                            Name ="Label12"
+                            Caption ="Total Sales:"
+                            LayoutCachedTop =1260
+                            LayoutCachedWidth =1380
+                            LayoutCachedHeight =1575
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =5220
+                    Height =315
+                    ColumnWidth =4230
+                    TabIndex =5
+                    Name ="ProductCategoryImage"
+                    ControlSource ="ProductCategoryImage"
+
+                    LayoutCachedLeft =5220
+                    LayoutCachedWidth =6660
+                    LayoutCachedHeight =315
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Top =600
+                    Width =6300
+                    Height =315
+                    TabIndex =6
+                    ForeColor =5855577
+                    Name ="ProductCategoryDesc"
+                    ControlSource ="ProductCategoryDesc"
+
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =6300
+                    LayoutCachedHeight =915
+                    ForeTint =65.0
+                End
+                Begin Attachment
+                    Left =7620
+                    Top =180
+                    Width =1515
+                    Height =1290
+                    Name ="Attachment36"
+                    ControlSource ="ProductCategoryImage"
+                    TabIndex =7
+
+                    LayoutCachedLeft =7620
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =9135
+                    LayoutCachedHeight =1470
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =315
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =95.0
+            Begin
+                Begin TextBox
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Width =4260
+                    Height =315
+                    ColumnWidth =2380
+                    BorderColor =16777215
+                    Name ="ProductName"
+                    ControlSource ="ProductName"
+
+                    LayoutCachedWidth =4260
+                    LayoutCachedHeight =315
+                    BorderShade =100.0
+                End
+                Begin TextBox
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =4260
+                    Width =1320
+                    Height =315
+                    TabIndex =1
+                    BorderColor =16777215
+                    Name ="ProductID"
+                    ControlSource ="ProductID"
+
+                    LayoutCachedLeft =4260
+                    LayoutCachedWidth =5580
+                    LayoutCachedHeight =315
+                    BorderShade =100.0
+                End
+                Begin TextBox
+                    TextAlign =2
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =5580
+                    Width =2340
+                    Height =315
+                    TabIndex =2
+                    BorderColor =16777215
+                    Name ="QuantityPerUnit"
+                    ControlSource ="QuantityPerUnit"
+                    StatusBarText ="Informational only; not used in any calculations."
+
+                    LayoutCachedLeft =5580
+                    LayoutCachedWidth =7920
+                    LayoutCachedHeight =315
+                    BorderShade =100.0
+                End
+                Begin TextBox
+                    OverlapFlags =4
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =7920
+                    Height =315
+                    TabIndex =3
+                    BorderColor =16777215
+                    Name ="UnitPrice"
+                    ControlSource ="UnitPrice"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =7920
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =315
+                    BorderShade =100.0
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =240
+            BreakLevel =2
+            Name ="GroupFooter1"
+            AlternateBackThemeColorIndex =1
+            BackThemeColorIndex =1
+        End
+        Begin PageFooter
+            Height =675
+            Name ="PageFooterSection"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    BackStyle =1
+                    TextAlign =2
+                    Width =9360
+                    Height =360
+                    FontWeight =700
+                    BackColor =14277081
+                    ForeColor =0
+                    Name ="Label13"
+                    Caption ="Northwind Traders - Fall Catalog"
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =360
+                    BackShade =85.0
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =2
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Top =360
+                    Width =9360
+                    Height =315
+                    ForeColor =0
+                    Name ="Text14"
+                    ControlSource ="=\"Page Number       \" & [Page] & \"/\" & [Pages]"
+
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =675
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =12960
+            Name ="ReportFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =95.0
+            Begin
+                Begin Subform
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    Width =9360
+                    Height =12960
+                    Name ="srptOrderForm"
+                    SourceObject ="Report.srptOrderForm"
+
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =12960
+                    Begin
+                        Begin Label
+                            Left =60
+                            Width =1485
+                            Height =315
+                            Name ="Label35"
+                            Caption ="srptOrderForm:"
+                            LayoutCachedLeft =60
+                            LayoutCachedWidth =1545
+                            LayoutCachedHeight =315
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "rptProductCatalog.cls"

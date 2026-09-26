@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "ImagePlaceholder",
+    "FileName": "Resource.png",
+    "Extension": "png",
+    "ContentHash": "b432ee8"
+  }
+}

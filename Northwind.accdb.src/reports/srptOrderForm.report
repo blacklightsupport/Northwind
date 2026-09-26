@@ -1,0 +1,853 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =9360
+    DatasheetFontHeight =11
+    ItemSuffix =59
+    RecSrcDt = Begin
+        0xa4f94f1ff2fae540
+    End
+    RecordSource ="SELECT CompanyTypes.CompanyType, Companies.CompanyID, Companies.CompanyName, Com"
+        "panies.CompanyTypeID, Companies.BusinessPhone, Companies.Address, Companies.City"
+        ", Companies.StateAbbrev, Companies.Zip, Companies.Notes FROM CompanyTypes INNER "
+        "JOIN Companies ON CompanyTypes.CompanyTypeID = Companies.CompanyTypeID WHERE ((("
+        "CompanyTypes.CompanyType)=\"Northwind\")); "
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            BorderThemeColorIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =12600
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Image
+                    PictureType =2
+                    Width =1800
+                    Height =1980
+                    BorderColor =10921638
+                    Name ="Image0"
+                    Picture ="NW2Logo256"
+                    GridlineColor =10921638
+                    LayoutCachedWidth =1800
+                    LayoutCachedHeight =1980
+                    TabIndex =4
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    BorderWidth =3
+                    Top =2040
+                    Width =9360
+                    Name ="Line1"
+                    GridlineColor =10921638
+                    LayoutCachedTop =2040
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =2040
+                End
+                Begin Label
+                    TextFontFamily =18
+                    Left =3600
+                    Top =420
+                    Width =4320
+                    Height =1080
+                    FontSize =24
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label2"
+                    Caption ="ORDER FORM"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =3600
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =7920
+                    LayoutCachedHeight =1500
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OldBorderStyle =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =360
+                    Top =2220
+                    Width =8280
+                    Height =300
+                    ColumnWidth =1920
+                    FontSize =10
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtAddress"
+                    ControlSource ="=[Address] & \", \" & [City] & \", \" & [StateAbbrev] & \"  \" & [Zip]"
+                    StatusBarText ="Address is required because we either ship there, or send contracts, payment che"
+                        "cks, and other correspondence."
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =2220
+                    LayoutCachedWidth =8640
+                    LayoutCachedHeight =2520
+                    ThemeFontIndex =-1
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OldBorderStyle =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =1080
+                    Top =2520
+                    Width =3360
+                    Height =300
+                    ColumnWidth =2640
+                    FontSize =10
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtBusinessPhone"
+                    ControlSource ="[BusinessPhone]"
+                    FontName ="Times New Roman"
+                    InputMask ="000\\-000\\-0000\\ CCCCCCCC;;"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1080
+                    LayoutCachedTop =2520
+                    LayoutCachedWidth =4440
+                    LayoutCachedHeight =2820
+                    ThemeFontIndex =-1
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextFontFamily =18
+                    Left =360
+                    Top =2520
+                    Width =660
+                    Height =300
+                    FontSize =10
+                    BorderColor =8355711
+                    ForeColor =6710886
+                    Name ="Label5"
+                    Caption ="Phone:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =2520
+                    LayoutCachedWidth =1020
+                    LayoutCachedHeight =2820
+                    ThemeFontIndex =-1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    FontItalic = NotDefault
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =360
+                    Top =2880
+                    Width =8280
+                    Height =780
+                    ColumnWidth =8475
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="HowToOrder"
+                    ControlSource ="=GetString(47)"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =2880
+                    LayoutCachedWidth =8640
+                    LayoutCachedHeight =3660
+                    ThemeFontIndex =-1
+                End
+                Begin Label
+                    TextFontFamily =18
+                    Left =360
+                    Top =3840
+                    Width =1080
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label7"
+                    Caption ="Bill To:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =3840
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =4200
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextFontFamily =18
+                    Left =4320
+                    Top =3840
+                    Width =1140
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label8"
+                    Caption ="Ship To:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =4320
+                    LayoutCachedTop =3840
+                    LayoutCachedWidth =5460
+                    LayoutCachedHeight =4200
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Line
+                    Left =1260
+                    Top =4140
+                    Width =2940
+                    Name ="Line9"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =4140
+                    LayoutCachedWidth =4200
+                    LayoutCachedHeight =4140
+                End
+                Begin Line
+                    Left =360
+                    Top =4500
+                    Width =3840
+                    Name ="Line10"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =4500
+                    LayoutCachedWidth =4200
+                    LayoutCachedHeight =4500
+                End
+                Begin Line
+                    Left =360
+                    Top =4860
+                    Width =3840
+                    Name ="Line11"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =4860
+                    LayoutCachedWidth =4200
+                    LayoutCachedHeight =4860
+                End
+                Begin Line
+                    Left =360
+                    Top =5220
+                    Width =3840
+                    Name ="Line12"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =5220
+                    LayoutCachedWidth =4200
+                    LayoutCachedHeight =5220
+                End
+                Begin Line
+                    Left =5340
+                    Top =4140
+                    Width =3000
+                    Name ="Line13"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5340
+                    LayoutCachedTop =4140
+                    LayoutCachedWidth =8340
+                    LayoutCachedHeight =4140
+                End
+                Begin Line
+                    Left =4500
+                    Top =4500
+                    Width =3840
+                    Name ="Line14"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =4500
+                    LayoutCachedTop =4500
+                    LayoutCachedWidth =8340
+                    LayoutCachedHeight =4500
+                End
+                Begin Line
+                    Left =4500
+                    Top =4860
+                    Width =3840
+                    Name ="Line15"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =4500
+                    LayoutCachedTop =4860
+                    LayoutCachedWidth =8340
+                    LayoutCachedHeight =4860
+                End
+                Begin Line
+                    Left =4500
+                    Top =5220
+                    Width =3840
+                    Name ="Line16"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =4500
+                    LayoutCachedTop =5220
+                    LayoutCachedWidth =8340
+                    LayoutCachedHeight =5220
+                End
+                Begin Label
+                    TextFontFamily =18
+                    Left =360
+                    Top =5460
+                    Width =1620
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label17"
+                    Caption ="Date of Order:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =5460
+                    LayoutCachedWidth =1980
+                    LayoutCachedHeight =5820
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Line
+                    Left =1920
+                    Top =5760
+                    Width =2340
+                    Name ="Line18"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1920
+                    LayoutCachedTop =5760
+                    LayoutCachedWidth =4260
+                    LayoutCachedHeight =5760
+                End
+                Begin Label
+                    TextFontFamily =18
+                    Left =360
+                    Top =5940
+                    Width =1680
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label19"
+                    Caption ="Date Required:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =5940
+                    LayoutCachedWidth =2040
+                    LayoutCachedHeight =6300
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Line
+                    Left =1920
+                    Top =6240
+                    Width =2340
+                    Name ="Line20"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1920
+                    LayoutCachedTop =6240
+                    LayoutCachedWidth =4260
+                    LayoutCachedHeight =6240
+                End
+                Begin Label
+                    TextFontFamily =18
+                    Left =4320
+                    Top =5880
+                    Width =1680
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label21"
+                    Caption ="Customer ID:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =4320
+                    LayoutCachedTop =5880
+                    LayoutCachedWidth =6000
+                    LayoutCachedHeight =6240
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Line
+                    Left =5880
+                    Top =6180
+                    Width =2340
+                    Name ="Line22"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5880
+                    LayoutCachedTop =6180
+                    LayoutCachedWidth =8220
+                    LayoutCachedHeight =6180
+                End
+                Begin Rectangle
+                    BackStyle =0
+                    Left =360
+                    Top =6480
+                    Width =8520
+                    Height =3840
+                    Name ="Box23"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =6480
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =10320
+                    BorderThemeColorIndex =0
+                    BorderShade =100.0
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =360
+                    Top =6600
+                    Width =1740
+                    Height =360
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label24"
+                    Caption ="Product ID:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =6600
+                    LayoutCachedWidth =2100
+                    LayoutCachedHeight =6960
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =2100
+                    Top =6600
+                    Width =3420
+                    Height =360
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label25"
+                    Caption ="Product Name: "
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2100
+                    LayoutCachedTop =6600
+                    LayoutCachedWidth =5520
+                    LayoutCachedHeight =6960
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =5520
+                    Top =6600
+                    Width =1200
+                    Height =360
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label26"
+                    Caption ="Unit Price: "
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5520
+                    LayoutCachedTop =6600
+                    LayoutCachedWidth =6720
+                    LayoutCachedHeight =6960
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =6720
+                    Top =6600
+                    Width =1020
+                    Height =360
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label27"
+                    Caption ="Quantity: "
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =6720
+                    LayoutCachedTop =6600
+                    LayoutCachedWidth =7740
+                    LayoutCachedHeight =6960
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =7740
+                    Top =6480
+                    Width =1140
+                    Height =600
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label28"
+                    Caption ="Extended Price: "
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =7740
+                    LayoutCachedTop =6480
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =7080
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Line
+                    Left =360
+                    Top =7080
+                    Width =8520
+                    Name ="Line29"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =7080
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =7080
+                End
+                Begin Line
+                    Left =360
+                    Top =7440
+                    Width =8520
+                    Name ="Line30"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =7440
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =7440
+                End
+                Begin Line
+                    Left =360
+                    Top =7800
+                    Width =8520
+                    Name ="Line31"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =7800
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =7800
+                End
+                Begin Line
+                    Left =360
+                    Top =8160
+                    Width =8520
+                    Name ="Line32"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =8160
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =8160
+                End
+                Begin Line
+                    Left =360
+                    Top =8520
+                    Width =8520
+                    Name ="Line33"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =8520
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =8520
+                End
+                Begin Line
+                    Left =360
+                    Top =8880
+                    Width =8520
+                    Name ="Line34"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =8880
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =8880
+                End
+                Begin Line
+                    Left =360
+                    Top =9240
+                    Width =8520
+                    Name ="Line35"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =9240
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =9240
+                End
+                Begin Line
+                    Left =360
+                    Top =9600
+                    Width =8520
+                    Name ="Line36"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =9600
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =9600
+                End
+                Begin Line
+                    Left =360
+                    Top =9960
+                    Width =8520
+                    Name ="Line37"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =9960
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =9960
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    Left =5520
+                    Top =10680
+                    Width =3360
+                    Name ="Line39"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5520
+                    LayoutCachedTop =10680
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =10680
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    Left =5520
+                    Top =11040
+                    Width =3360
+                    Name ="Line40"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5520
+                    LayoutCachedTop =11040
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =11040
+                End
+                Begin Line
+                    Left =2100
+                    Top =6600
+                    Width =0
+                    Height =3720
+                    Name ="Line41"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2100
+                    LayoutCachedTop =6600
+                    LayoutCachedWidth =2100
+                    LayoutCachedHeight =10320
+                End
+                Begin Line
+                    Left =5520
+                    Top =6480
+                    Width =0
+                    Height =4980
+                    Name ="Line42"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5520
+                    LayoutCachedTop =6480
+                    LayoutCachedWidth =5520
+                    LayoutCachedHeight =11460
+                End
+                Begin Line
+                    Left =6720
+                    Top =6480
+                    Width =0
+                    Height =3840
+                    Name ="Line43"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =6720
+                    LayoutCachedTop =6480
+                    LayoutCachedWidth =6720
+                    LayoutCachedHeight =10320
+                End
+                Begin Line
+                    Left =7740
+                    Top =6480
+                    Width =0
+                    Height =4980
+                    Name ="Line44"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =7740
+                    LayoutCachedTop =6480
+                    LayoutCachedWidth =7740
+                    LayoutCachedHeight =11460
+                End
+                Begin Line
+                    Left =8880
+                    Top =10320
+                    Width =0
+                    Height =1140
+                    Name ="Line45"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8880
+                    LayoutCachedTop =10320
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =11460
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    Left =5520
+                    Top =11460
+                    Width =3360
+                    Name ="Line46"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5520
+                    LayoutCachedTop =11460
+                    LayoutCachedWidth =8880
+                    LayoutCachedHeight =11460
+                End
+                Begin Label
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =5580
+                    Top =10320
+                    Width =1320
+                    Height =300
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label47"
+                    Caption ="Subtotal:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5580
+                    LayoutCachedTop =10320
+                    LayoutCachedWidth =6900
+                    LayoutCachedHeight =10620
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =5580
+                    Top =10680
+                    Width =2040
+                    Height =300
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label48"
+                    Caption ="Freight (estimated):"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5580
+                    LayoutCachedTop =10680
+                    LayoutCachedWidth =7620
+                    LayoutCachedHeight =10980
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =5580
+                    Top =11100
+                    Width =1380
+                    Height =300
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label49"
+                    Caption ="Total:"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5580
+                    LayoutCachedTop =11100
+                    LayoutCachedWidth =6960
+                    LayoutCachedHeight =11400
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin Subform
+                    Left =360
+                    Top =11040
+                    Width =3240
+                    Height =1380
+                    TabIndex =3
+                    Name ="srptShipVia"
+                    SourceObject ="Report.srptShipVia"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =11040
+                    LayoutCachedWidth =3600
+                    LayoutCachedHeight =12420
+                End
+            End
+        End
+    End
+End

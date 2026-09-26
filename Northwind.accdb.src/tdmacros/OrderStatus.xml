@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/11/application">
+  <DataMacro Event="BeforeChange">
+    <Statements>
+      <Comment>Upate the Audit Fields for an Insert (AddedBy AddedOn) or and Update (ModifiedBy ModifiedOn)</Comment>
+      <ConditionalBlock>
+        <If>
+          <Condition>[IsInsert]</Condition>
+          <Statements>
+            <Action Name="SetField">
+              <Argument Name="Field">AddedBy</Argument>
+              <Argument Name="Value">GetAuditFieldsUserName()</Argument>
+            </Action>
+            <Action Name="SetField">
+              <Argument Name="Field">AddedOn</Argument>
+              <Argument Name="Value">Now()</Argument>
+            </Action>
+            <Action Name="SetField">
+              <Argument Name="Field">ModifiedBy</Argument>
+              <Argument Name="Value">GetAuditFieldsUserName()</Argument>
+            </Action>
+            <Action Name="SetField">
+              <Argument Name="Field">ModifiedOn</Argument>
+              <Argument Name="Value">Now()</Argument>
+            </Action>
+          </Statements>
+        </If>
+        <Else>
+          <Statements>
+            <Comment>This is an update</Comment>
+            <Action Name="SetField">
+              <Argument Name="Field">ModifiedBy</Argument>
+              <Argument Name="Value">GetAuditFieldsUserName()</Argument>
+            </Action>
+            <Action Name="SetField">
+              <Argument Name="Field">ModifiedOn</Argument>
+              <Argument Name="Value">Now()</Argument>
+            </Action>
+            <Comment>We only set the Added audit values once when the record is added.  If the user has deleted the AddedBy or AddedOn values we want to put them back  </Comment>
+            <ConditionalBlock>
+              <If>
+                <Condition>[Old].[AddedBy]&lt;&gt;[AddedBy]</Condition>
+                <Statements>
+                  <Action Name="SetField">
+                    <Argument Name="Field">AddedBy</Argument>
+                    <Argument Name="Value">[Old].[AddedBy]</Argument>
+                  </Action>
+                </Statements>
+              </If>
+              <Else>
+                <Statements>
+                  <ConditionalBlock>
+                    <If>
+                      <Condition>IsNull([AddedBy])</Condition>
+                      <Statements>
+                        <Action Name="SetField">
+                          <Argument Name="Field">AddedBy</Argument>
+                          <Argument Name="Value">[Old].[AddedBy]</Argument>
+                        </Action>
+                      </Statements>
+                    </If>
+                  </ConditionalBlock>
+                </Statements>
+              </Else>
+            </ConditionalBlock>
+            <ConditionalBlock>
+              <If>
+                <Condition>IsNull([AddedOn])</Condition>
+                <Statements>
+                  <Action Name="SetField">
+                    <Argument Name="Field">AddedOn</Argument>
+                    <Argument Name="Value">[Old].[AddedOn]</Argument>
+                  </Action>
+                </Statements>
+              </If>
+              <Else>
+                <Statements>
+                  <ConditionalBlock>
+                    <If>
+                      <Condition>[Old].[AddedOn]&lt;&gt;[AddedOn]</Condition>
+                      <Statements>
+                        <Action Name="SetField">
+                          <Argument Name="Field">AddedOn</Argument>
+                          <Argument Name="Value">[Old].[AddedOn]</Argument>
+                        </Action>
+                      </Statements>
+                    </If>
+                  </ConditionalBlock>
+                </Statements>
+              </Else>
+            </ConditionalBlock>
+          </Statements>
+        </Else>
+      </ConditionalBlock>
+    </Statements>
+  </DataMacro>
+</DataMacros>

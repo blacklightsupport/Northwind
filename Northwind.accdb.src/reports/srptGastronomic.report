@@ -1,0 +1,123 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =6960
+    DatasheetFontHeight =11
+    ItemSuffix =3
+    RecSrcDt = Begin
+        0x2f068675b0e9e540
+    End
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =8100
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    FontItalic = NotDefault
+                    OldBorderStyle =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Top =1560
+                    Width =6960
+                    Height =6540
+                    ColumnWidth =8475
+                    FontSize =14
+                    FontWeight =700
+                    BorderColor =10921638
+                    Name ="StringData"
+                    ControlSource ="=GetString(44)"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedTop =1560
+                    LayoutCachedWidth =6960
+                    LayoutCachedHeight =8100
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OldBorderStyle =0
+                    TextAlign =2
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =360
+                    Width =6180
+                    Height =960
+                    FontSize =18
+                    FontWeight =700
+                    TabIndex =1
+                    BorderColor =10921638
+                    Name ="Text1"
+                    ControlSource ="=GetString(43)"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =360
+                    LayoutCachedWidth =6540
+                    LayoutCachedHeight =960
+                    ThemeFontIndex =-1
+                    ForeTint =100.0
+                End
+            End
+        End
+    End
+End

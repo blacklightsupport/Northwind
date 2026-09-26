@@ -1,0 +1,62 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qrySales_SalesRep"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "OrderTotal": {
+        "ColumnWidth": 1360,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1606,
+        "bottom": 1019
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1581,
+        "bottom": 181
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "OrderDetails",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 285,
+          "Bottom": 246,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 394,
+          "Top": 18,
+          "Right": 610,
+          "Bottom": 234,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Employees",
+          "Alias": "",
+          "Left": 738,
+          "Top": 43,
+          "Right": 954,
+          "Bottom": 259,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

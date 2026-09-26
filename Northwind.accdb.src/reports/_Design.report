@@ -1,0 +1,154 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =8884
+    DatasheetFontHeight =11
+    OnNoData ="[Event Procedure]"
+    RecSrcDt = Begin
+        0x1138d7d67207e640
+    End
+    OnClose ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    OnActivate ="[Event Procedure]"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =840
+            Name ="ReportHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Image
+                    BackStyle =0
+                    PictureType =2
+                    Left =120
+                    Top =60
+                    Width =720
+                    Height =720
+                    Name ="imgNorthwindTradersLogo"
+                    ControlTipText ="Northwind Traders Logo"
+                    Picture ="NW2Logo"
+                    GroupTable =1
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =840
+                    LayoutCachedHeight =780
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    TextAlign =1
+                    Left =900
+                    Top =60
+                    Width =5220
+                    Height =720
+                    FontSize =18
+                    FontWeight =700
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Auto_Header0"
+                    Caption ="Title"
+                    FontName ="Calibri Light"
+                    GroupTable =1
+                    LayoutCachedLeft =900
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =6120
+                    LayoutCachedHeight =780
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GroupTable =1
+                End
+            End
+        End
+        Begin PageHeader
+            Height =720
+            Name ="PageHeaderSection"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =7560
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin PageFooter
+            Height =360
+            Name ="PageFooterSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =360
+            Name ="ReportFooter"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
+CodeBehindForm
+' See "_Design.cls"

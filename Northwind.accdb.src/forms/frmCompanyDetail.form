@@ -1,0 +1,1282 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =17460
+    DatasheetFontHeight =11
+    ItemSuffix =273
+    Right =50000
+    Bottom =50000
+    AfterInsert ="[Event Procedure]"
+    BeforeDelConfirm ="[Event Procedure]"
+    AfterDelConfirm ="[Event Procedure]"
+    RecSrcDt = Begin
+        0xc2bc3d7ceee0e540
+    End
+    RecordSource ="qryCompanies"
+    Caption ="Customer"
+    OnCurrent ="[Event Procedure]"
+    OnDelete ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    AfterUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    NavigationCaption ="Companies"
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    AllowLayoutView =0
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin Tab
+            FontSize =11
+            FontName ="Calibri Light"
+            ThemeFontIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =3
+            BackThemeColorIndex =1
+            BackShade =85.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =2
+            BorderTint =60.0
+            HoverThemeColorIndex =1
+            PressedThemeColorIndex =1
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin Page
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Attachment
+            BackStyle =0
+            BorderLineStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            LabelX =-1800
+            AddColon =0
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1201
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    Top =840
+                    Width =17460
+                    Height =358
+                    BorderColor =12632256
+                    Name ="boxHeaderControls"
+                    GridlineColor =0
+                    HorizontalAnchor =2
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =17460
+                    LayoutCachedHeight =1198
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =67
+                    Left =720
+                    Top =841
+                    Width =835
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =2
+                    Name ="cmdCancel"
+                    Caption ="&Cancel"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =67
+                    CursorOnHover =1
+                    LayoutCachedLeft =720
+                    LayoutCachedTop =841
+                    LayoutCachedWidth =1555
+                    LayoutCachedHeight =1201
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =69
+                    Left =5400
+                    Top =841
+                    Width =2880
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="cmdEmail"
+                    Caption ="&Email Company List"
+                    StatusBarText ="Email"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =69
+                    CursorOnHover =1
+                    LayoutCachedLeft =5400
+                    LayoutCachedTop =841
+                    LayoutCachedWidth =8280
+                    LayoutCachedHeight =1201
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                    Overlaps =1
+                End
+                Begin Image
+                    PictureAlignment =0
+                    PictureType =2
+                    Left =30
+                    Top =30
+                    Width =720
+                    Height =720
+                    BorderColor =0
+                    Name ="imgHelp"
+                    Picture ="9_NW2Logo"
+                    LayoutCachedLeft =30
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =750
+                    LayoutCachedHeight =750
+                    TabIndex =8
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =68
+                    Left =15060
+                    Top =840
+                    Width =2160
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="cmdDeleteCompany"
+                    Caption ="&Delete Company"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =68
+                    HorizontalAnchor =1
+                    CursorOnHover =1
+                    LayoutCachedLeft =15060
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =17220
+                    LayoutCachedHeight =1200
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                    Overlaps =1
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =900
+                    Top =60
+                    Width =10500
+                    Height =720
+                    FontSize =18
+                    FontWeight =700
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtHeaderCompanyName"
+                    ControlSource ="=[CompanyName]"
+                    DefaultValue ="\"KimsCompany\""
+                    FontName ="Calibri Light"
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =900
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =11400
+                    LayoutCachedHeight =780
+                    ColumnStart =1
+                    ColumnEnd =1
+                    BorderThemeColorIndex =2
+                    BorderShade =100.0
+                    ThemeFontIndex =0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =70
+                    Left =8820
+                    Top =841
+                    Width =2100
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =4
+                    Name ="cmdShowFilter"
+                    Caption ="Show &Filter"
+                    StatusBarText ="Email"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =70
+                    CursorOnHover =1
+                    LayoutCachedLeft =8820
+                    LayoutCachedTop =841
+                    LayoutCachedWidth =10920
+                    LayoutCachedHeight =1201
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                    Overlaps =1
+                End
+                Begin Image
+                    PictureType =2
+                    Left =120
+                    Top =60
+                    Width =720
+                    Height =720
+                    Name ="imgLogo"
+                    Picture ="NW2Logo"
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =840
+                    LayoutCachedHeight =780
+                    TabIndex =9
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =83
+                    Left =3240
+                    Top =840
+                    Width =1395
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =5
+                    Name ="cmdSave"
+                    Caption ="&Save"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =83
+                    CursorOnHover =1
+                    LayoutCachedLeft =3240
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =4635
+                    LayoutCachedHeight =1200
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =65
+                    Left =1920
+                    Top =840
+                    Width =1075
+                    FontSize =13
+                    FontWeight =700
+                    TabIndex =6
+                    Name ="cmdAdd"
+                    Caption ="&Add"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =65
+                    CursorOnHover =1
+                    LayoutCachedLeft =1920
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =2995
+                    LayoutCachedHeight =1200
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =12874308
+                    BorderTint =100.0
+                    HoverColor =13667945
+                    HoverTint =80.0
+                    PressedColor =13667945
+                    PressedTint =80.0
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =60.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =60.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    AccessKey =73
+                    PictureType =2
+                    Left =16799
+                    Top =120
+                    Width =360
+                    TabIndex =7
+                    Name ="cmdInfo"
+                    Caption ="&Info"
+                    Picture ="Help"
+                    HyperlinkAddress ="https://support.microsoft.com/topic/9b03e070-1710-4cb8-9dcd-3208e84180d4"
+                    UnicodeAccessKey =73
+                    HorizontalAnchor =1
+                    BackStyle =0
+                    LayoutCachedLeft =16799
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =17159
+                    LayoutCachedHeight =480
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    Gradient =0
+                    OldBorderStyle =0
+                End
+            End
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =10080
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4680
+                    Top =300
+                    Width =780
+                    Height =315
+                    TabIndex =14
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    BackColor =62207
+                    Name ="txtCompanyType"
+                    ControlSource ="=[cboCompanyTypeID].[Column](1)"
+                    LayoutCachedLeft =4680
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =5460
+                    LayoutCachedHeight =615
+                    BackThemeColorIndex =-1
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =3
+                    Left =2580
+                    Top =6480
+                    Width =3120
+                    Height =300
+                    FontSize =9
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="lblZoomTip"
+                    Caption ="TIP: Use Shift+F2 for Zoom window"
+                    BottomPadding =150
+                    LayoutCachedLeft =2580
+                    LayoutCachedTop =6480
+                    LayoutCachedWidth =5700
+                    LayoutCachedHeight =6780
+                    RowStart =3
+                    RowEnd =3
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1260
+                    Top =740
+                    Width =3240
+                    Height =360
+                    ColumnWidth =3915
+                    TabIndex =2
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtCompanyName"
+                    ControlSource ="CompanyName"
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =740
+                    LayoutCachedWidth =4500
+                    LayoutCachedHeight =1100
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =780
+                            Width =1020
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblCompanyName"
+                            Caption ="Company"
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =780
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =1140
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1260
+                    Top =1200
+                    Width =3240
+                    Height =360
+                    ColumnWidth =1920
+                    TabIndex =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtAddress"
+                    ControlSource ="Address"
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =1200
+                    LayoutCachedWidth =4500
+                    LayoutCachedHeight =1560
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =360
+                            Top =1200
+                            Width =840
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lbltxtAddress"
+                            Caption ="Address"
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =1200
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =1560
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1260
+                    Top =1620
+                    Width =3240
+                    Height =360
+                    TabIndex =4
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtCity"
+                    ControlSource ="City"
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =1620
+                    LayoutCachedWidth =4500
+                    LayoutCachedHeight =1980
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =780
+                            Top =1620
+                            Width =420
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblCity"
+                            Caption ="City"
+                            LayoutCachedLeft =780
+                            LayoutCachedTop =1620
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =1980
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3360
+                    Top =2040
+                    Width =1140
+                    Height =360
+                    TabIndex =6
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtZip"
+                    ControlSource ="Zip"
+                    LayoutCachedLeft =3360
+                    LayoutCachedTop =2040
+                    LayoutCachedWidth =4500
+                    LayoutCachedHeight =2400
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =2880
+                            Top =2040
+                            Width =420
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblZip"
+                            Caption ="Zip"
+                            LayoutCachedLeft =2880
+                            LayoutCachedTop =2040
+                            LayoutCachedWidth =3300
+                            LayoutCachedHeight =2400
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    AccessKey =77
+                    Left =4560
+                    Top =2040
+                    Width =1140
+                    FontSize =14
+                    TabIndex =7
+                    Name ="cmdClickToMap"
+                    Caption ="&Map"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =77
+                    GridlineColor =-2147483609
+                    LayoutCachedLeft =4560
+                    LayoutCachedTop =2040
+                    LayoutCachedWidth =5700
+                    LayoutCachedHeight =2400
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =12874308
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =3
+                    Left =2580
+                    Top =4140
+                    Width =3120
+                    Height =300
+                    FontSize =9
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="lblWebsiteTip"
+                    Caption ="TIP: Right Click to Edit the Hyperlink"
+                    BottomPadding =150
+                    LayoutCachedLeft =2580
+                    LayoutCachedTop =4140
+                    LayoutCachedWidth =5700
+                    LayoutCachedHeight =4440
+                    RowStart =3
+                    RowEnd =3
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1260
+                    Top =300
+                    Width =660
+                    Height =360
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtCompanyID"
+                    ControlSource ="CompanyID"
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =1920
+                    LayoutCachedHeight =660
+                    DatasheetCaption ="CustomerID"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =60
+                            Top =300
+                            Width =1140
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblCompanyID"
+                            Caption ="CompanyID"
+                            LayoutCachedLeft =60
+                            LayoutCachedTop =300
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =660
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =2700
+                    Top =300
+                    Width =1800
+                    Height =360
+                    TabIndex =1
+                    Name ="cboCompanyTypeID"
+                    ControlSource ="CompanyTypeID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qrycboCompanyType"
+                    ColumnWidths ="0;1440"
+                    BeforeUpdate ="[Event Procedure]"
+                    AfterUpdate ="[Event Procedure]"
+                    DefaultValue ="1"
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    LayoutCachedLeft =2700
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =4500
+                    LayoutCachedHeight =660
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =3
+                            Left =2100
+                            Top =300
+                            Width =600
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblCompanyTypeID"
+                            Caption ="Type"
+                            LayoutCachedLeft =2100
+                            LayoutCachedTop =300
+                            LayoutCachedWidth =2700
+                            LayoutCachedHeight =660
+                        End
+                    End
+                End
+                Begin Subform
+                    OverlapFlags =87
+                    Left =120
+                    Top =7020
+                    Width =17160
+                    Height =3060
+                    TabIndex =13
+                    Name ="sfrmCompanyDetail_Contacts"
+                    SourceObject ="Form.sfrmCompanyDetail_Contacts"
+                    LinkChildFields ="CompanyID"
+                    LinkMasterFields ="CompanyID"
+                    HorizontalAnchor =2
+                    VerticalAnchor =1
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =7020
+                    LayoutCachedWidth =17280
+                    LayoutCachedHeight =10080
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =120
+                            Top =6600
+                            Width =1080
+                            Height =420
+                            FontSize =14
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblsfrmCompanyDetail_Contact"
+                            Caption ="Contacts"
+                            VerticalAnchor =1
+                            LayoutCachedLeft =120
+                            LayoutCachedTop =6600
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =7020
+                            BorderThemeColorIndex =1
+                            BorderTint =100.0
+                            BorderShade =95.0
+                            ForeThemeColorIndex =4
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1260
+                    Top =2460
+                    Width =3240
+                    Height =360
+                    ColumnWidth =2640
+                    TabIndex =8
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtBusinessPhone"
+                    ControlSource ="BusinessPhone"
+                    InputMask ="000\\-000\\-0000\\ CCCCCCCC;;"
+                    OnClick ="[Event Procedure]"
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =2460
+                    LayoutCachedWidth =4500
+                    LayoutCachedHeight =2820
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =360
+                            Top =2460
+                            Width =840
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblBusinessPhone"
+                            Caption ="Phone"
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =2460
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =2820
+                        End
+                    End
+                End
+                Begin Subform
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    OverlapFlags =87
+                    Left =6180
+                    Top =720
+                    Width =11100
+                    Height =6060
+                    TabIndex =12
+                    Name ="sfrmOrders"
+                    SourceObject ="Form.sfrmCompanyDetail_CustomerOrders"
+                    LinkChildFields ="myCompanyID"
+                    LinkMasterFields ="CompanyID"
+                    VerticalAnchor =2
+                    LayoutCachedLeft =6180
+                    LayoutCachedTop =720
+                    LayoutCachedWidth =17280
+                    LayoutCachedHeight =6780
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =6180
+                            Top =300
+                            Width =3240
+                            Height =420
+                            FontSize =14
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblsfrmOrders"
+                            Caption ="Orders"
+                            LayoutCachedLeft =6180
+                            LayoutCachedTop =300
+                            LayoutCachedWidth =9420
+                            LayoutCachedHeight =720
+                            ForeThemeColorIndex =4
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1260
+                    Top =2880
+                    Width =1500
+                    Height =360
+                    TabIndex =9
+                    Name ="cboStandardTaxStatusID"
+                    ControlSource ="StandardTaxStatusID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qrycboTaxStatus"
+                    ColumnWidths ="0;1440"
+                    StatusBarText ="Purchases for resell are exempt; for personal consumption are taxable."
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =2880
+                    LayoutCachedWidth =2760
+                    LayoutCachedHeight =3240
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =2880
+                            Width =1020
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblTaxStatus"
+                            Caption ="Tax Status"
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =2880
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =3240
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1260
+                    Top =2040
+                    Width =1500
+                    Height =360
+                    TabIndex =5
+                    Name ="cboState"
+                    ControlSource ="StateAbbrev"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qrycboStates"
+                    ColumnWidths ="0;1440"
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =2040
+                    LayoutCachedWidth =2760
+                    LayoutCachedHeight =2400
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =660
+                            Top =2040
+                            Width =540
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblState"
+                            Caption ="State"
+                            LayoutCachedLeft =660
+                            LayoutCachedTop =2040
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =2400
+                        End
+                    End
+                End
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    IsHyperlink = NotDefault
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =1260
+                    Top =3780
+                    Width =4440
+                    Height =360
+                    ColumnWidth =3795
+                    TabIndex =10
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtWebsite"
+                    ControlSource ="Website"
+                    StatusBarText ="Ctrl + CLick takes you to the webpage"
+                    OnDblClick ="[Event Procedure]"
+                    ControlTipText ="Ctrl + CLick takes you to the webpage"
+                    LayoutCachedLeft =1260
+                    LayoutCachedTop =3780
+                    LayoutCachedWidth =5700
+                    LayoutCachedHeight =4140
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =360
+                            Top =3780
+                            Width =840
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblWebsite"
+                            Caption ="Website"
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =3780
+                            LayoutCachedWidth =1200
+                            LayoutCachedHeight =4140
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =87
+                    TextAlign =1
+                    Left =360
+                    Top =4620
+                    Width =5340
+                    Height =1860
+                    ColumnOrder =7
+                    TabIndex =11
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtNotes"
+                    ControlSource ="Notes"
+                    ControlTipText ="TIP: Use Shift+F2 for Zoom window"
+                    BottomPadding =150
+                    TextFormat =1
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =4620
+                    LayoutCachedWidth =5700
+                    LayoutCachedHeight =6480
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =3
+                    ColumnEnd =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =360
+                            Top =4260
+                            Width =2040
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =5855577
+                            Name ="lblNotes"
+                            Caption ="Notes (Rich Text)"
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =4260
+                            LayoutCachedWidth =2400
+                            LayoutCachedHeight =4620
+                            RowStart =6
+                            RowEnd =6
+                            ColumnStart =2
+                            ColumnEnd =2
+                            ForeTint =65.0
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =540
+            BackColor =-2147483612
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin TextBox
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =4020
+                    Top =120
+                    Width =13200
+                    Height =315
+                    FontSize =9
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    ForeColor =8355711
+                    Name ="txtModified"
+                    ControlSource ="=RecordModifiedString([AddedBy],[AddedOn],[ModifiedBy],[ModifiedOn])"
+                    HorizontalAnchor =1
+                    VerticalAnchor =1
+                    LayoutCachedLeft =4020
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =17220
+                    LayoutCachedHeight =435
+                    BorderThemeColorIndex =0
+                    BorderTint =50.0
+                    BorderShade =100.0
+                    ForeTint =50.0
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "frmCompanyDetail.cls"

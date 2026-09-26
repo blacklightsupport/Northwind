@@ -1,0 +1,345 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    PopUp = NotDefault
+    RecordSelectors = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    RecordLocks =2
+    BorderStyle =3
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridX =24
+    GridY =24
+    Width =9299
+    DatasheetFontHeight =11
+    ItemSuffix =11
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x69e2a7d5b1e0e540
+    End
+    Caption ="Kim"
+    DatasheetFontName ="Calibri"
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    AllowLayoutView =0
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1020
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Image
+                    PictureType =2
+                    Left =120
+                    Top =60
+                    Width =720
+                    Height =720
+                    Name ="imgHelp"
+                    Picture ="1_NW2Logo256"
+                    GroupTable =3
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =840
+                    LayoutCachedHeight =780
+                    LayoutGroup =1
+                    GroupTable =3
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =1
+                    Left =900
+                    Top =60
+                    Width =8040
+                    Height =720
+                    FontSize =18
+                    FontWeight =700
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Auto_Header0"
+                    Caption ="Generic Dialog"
+                    FontName ="Calibri Light"
+                    GroupTable =3
+                    LayoutCachedLeft =900
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =8940
+                    LayoutCachedHeight =780
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GroupTable =3
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =247
+                    Top =660
+                    Width =9299
+                    Height =360
+                    BorderColor =12632256
+                    Name ="BoxCaptions"
+                    GridlineColor =0
+                    HorizontalAnchor =2
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =9299
+                    LayoutCachedHeight =1020
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+            End
+        End
+        Begin Section
+            Height =2940
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    ScrollBars =2
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =60
+                    Top =60
+                    Width =9180
+                    Height =2455
+                    FontSize =14
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtMessage"
+                    TextFormat =1
+                    HorizontalAnchor =2
+                    VerticalAnchor =2
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =9240
+                    LayoutCachedHeight =2515
+                    ForeThemeColorIndex =4
+                    ForeTint =100.0
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Top =2580
+                    Width =9299
+                    Height =360
+                    BorderColor =12632256
+                    Name ="Box8"
+                    GridlineColor =0
+                    HorizontalAnchor =2
+                    VerticalAnchor =1
+                    LayoutCachedTop =2580
+                    LayoutCachedWidth =9299
+                    LayoutCachedHeight =2940
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+            End
+        End
+        Begin FormFooter
+            Height =600
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin CommandButton
+                    Cancel = NotDefault
+                    OverlapFlags =85
+                    AccessKey =67
+                    Left =4860
+                    Top =120
+                    Width =1140
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="cmdCancelClose"
+                    Caption ="&Cancel"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Click or [Esc] to cancel."
+                    UnicodeAccessKey =67
+                    VerticalAnchor =1
+                    CursorOnHover =1
+                    LayoutCachedLeft =4860
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =6000
+                    LayoutCachedHeight =480
+                    PictureCaptionArrangement =5
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    Default = NotDefault
+                    OverlapFlags =85
+                    AccessKey =79
+                    Left =2580
+                    Top =120
+                    Width =1140
+                    FontSize =12
+                    FontWeight =700
+                    Name ="cmdOK"
+                    Caption ="&OK"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Click or [Enter] to affirm selection."
+                    UnicodeAccessKey =79
+                    VerticalAnchor =1
+                    CursorOnHover =1
+                    LayoutCachedLeft =2580
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =480
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =12874308
+                    BackTint =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "frmGenericDialog.cls"

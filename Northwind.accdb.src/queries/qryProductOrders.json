@@ -1,0 +1,80 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryProductOrders"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "ExtendedPrice": {
+        "ColumnWidth": 1815,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 65
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 514,
+          "Top": 24,
+          "Right": 658,
+          "Bottom": 168,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 131,
+          "Top": 57,
+          "Right": 275,
+          "Bottom": 201,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "OrderDetails",
+          "Alias": "",
+          "Left": 324,
+          "Top": 40,
+          "Right": 468,
+          "Bottom": 322,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "OrderStatus",
+          "Alias": "",
+          "Left": 766,
+          "Top": 5,
+          "Right": 995,
+          "Bottom": 165,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "OrderDetailStatus",
+          "Alias": "",
+          "Left": 807,
+          "Top": 163,
+          "Right": 1028,
+          "Bottom": 307,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

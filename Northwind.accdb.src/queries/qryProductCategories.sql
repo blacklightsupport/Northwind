@@ -1,0 +1,12 @@
+﻿SELECT
+  ProductCategories.ProductCategoryID,
+  ProductCategories.ProductCategoryName,
+  ProductCategories.ProductCategoryCode,
+  ProductCategories.ProductCategoryDesc,
+  ProductCategories.ProductCategoryImage,
+  ProductCategories.AddedBy,
+  ProductCategories.AddedOn,
+  ProductCategories.ModifiedBy,
+  ProductCategories.ModifiedOn
+FROM
+  ProductCategories;

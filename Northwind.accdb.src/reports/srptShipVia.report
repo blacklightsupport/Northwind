@@ -1,0 +1,153 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =2340
+    DatasheetFontHeight =11
+    ItemSuffix =3
+    RecSrcDt = Begin
+        0x7f5951a4b0e9e540
+    End
+    RecordSource ="qryShippers"
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =420
+            Name ="ReportHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    TextFontFamily =18
+                    Width =2340
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label0"
+                    Caption ="Ship Via (check one):"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedWidth =2340
+                    LayoutCachedHeight =360
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =315
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextFontFamily =18
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =420
+                    Width =1920
+                    Height =315
+                    ColumnWidth =3390
+                    FontSize =12
+                    FontWeight =700
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtCompanyName"
+                    ControlSource ="CompanyName"
+                    FontName ="Times New Roman"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =420
+                    LayoutCachedWidth =2340
+                    LayoutCachedHeight =315
+                    ThemeFontIndex =-1
+                End
+                Begin Rectangle
+                    Left =60
+                    Top =60
+                    Width =240
+                    Height =240
+                    BorderColor =10921638
+                    Name ="rectCheck"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =300
+                    LayoutCachedHeight =300
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =120
+            Name ="ReportFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End

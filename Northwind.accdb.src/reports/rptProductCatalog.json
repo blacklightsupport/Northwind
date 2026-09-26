@@ -1,0 +1,34 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "rptProductCatalog Print Settings"
+  },
+  "Items": {
+    "Device": {
+      "DriverName": "winspool",
+      "DeviceName": "Microsoft Print to PDF",
+      "Port": "PORTPROMPT:",
+      "Default": false
+    },
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "Letter"
+    },
+    "Margins": {
+      "LeftMargin": 1,
+      "TopMargin": 1,
+      "RightMargin": 1,
+      "BotMargin": 0.3,
+      "DataOnly": false,
+      "Width": 6.5,
+      "Height": 0.2188,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

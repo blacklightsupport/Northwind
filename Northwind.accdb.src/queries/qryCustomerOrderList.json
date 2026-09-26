@@ -1,0 +1,74 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryCustomerOrderList"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 269
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 359,
+          "Bottom": 342,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qrycboEmployees",
+          "Alias": "",
+          "Left": 407,
+          "Top": 12,
+          "Right": 551,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qrycboShippers",
+          "Alias": "",
+          "Left": 409,
+          "Top": 195,
+          "Right": 553,
+          "Bottom": 339,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryOrderTotal",
+          "Alias": "",
+          "Left": 679,
+          "Top": 172,
+          "Right": 823,
+          "Bottom": 303,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qrycboOrderStatus",
+          "Alias": "",
+          "Left": 599,
+          "Top": 12,
+          "Right": 743,
+          "Bottom": 156,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

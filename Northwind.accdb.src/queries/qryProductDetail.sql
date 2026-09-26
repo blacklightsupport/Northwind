@@ -1,0 +1,19 @@
+﻿SELECT
+  Products.ProductID,
+  Products.ProductCode,
+  Products.ProductName,
+  Products.ProductDescription,
+  Products.StandardUnitCost,
+  Products.UnitPrice,
+  Products.ReorderLevel,
+  Products.TargetLevel,
+  Products.QuantityPerUnit,
+  Products.Discontinued,
+  Products.MinimumReorderQuantity,
+  Products.ProductCategoryID,
+  Products.AddedBy,
+  Products.AddedOn,
+  Products.ModifiedBy,
+  Products.ModifiedOn
+FROM
+  Products;

@@ -1,0 +1,1725 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =5
+    ScrollBars =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =13260
+    RowHeight =300
+    DatasheetFontHeight =11
+    ItemSuffix =323
+    Right =50000
+    Bottom =50000
+    FrozenColumns =3
+    RecSrcDt = Begin
+        0x8e7a61b0dbe0e540
+    End
+    RecordSource ="qryCompanyList"
+    Caption ="Companies"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    SplitFormOrientation =1
+    SplitFormDatasheet =1
+    SplitFormSplitterBar =0
+    SplitFormSize =1290
+    NavigationCaption ="Customers"
+    SplitFormOrientation =1
+    SplitFormDatasheet =1
+    SplitFormSplitterBar =0
+    SplitFormSize =1290
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    TotalsRow =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1200
+            Name ="FormHeader"
+            OnDblClick ="[Event Procedure]"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =900
+                    Top =60
+                    Width =2040
+                    Height =720
+                    FontSize =18
+                    FontWeight =700
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Auto_Header0"
+                    Caption ="Companies"
+                    FontName ="Calibri Light"
+                    GroupTable =2
+                    LayoutCachedLeft =900
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =2940
+                    LayoutCachedHeight =780
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    ThemeFontIndex =0
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GroupTable =2
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    Top =840
+                    Width =13260
+                    Height =360
+                    BorderColor =12632256
+                    Name ="BoxCaptions"
+                    HorizontalAnchor =2
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =13260
+                    LayoutCachedHeight =1200
+                    RowStart =1
+                    RowEnd =1
+                    ColumnEnd =1
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                End
+                Begin Image
+                    PictureAlignment =0
+                    PictureType =2
+                    Left =120
+                    Top =60
+                    Width =720
+                    Height =720
+                    BorderColor =0
+                    Name ="imgNorthwindTradersLogo"
+                    ControlTipText ="Northwind Traders Logo"
+                    Picture ="NW2Logo"
+                    GroupTable =2
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =840
+                    LayoutCachedHeight =780
+                    TabIndex =6
+                    LayoutGroup =2
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GroupTable =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =72
+                    Left =1020
+                    Top =840
+                    Width =2103
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="cmdShowHideFields"
+                    Caption ="Show/&Hide Fields"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Show or hide existing fields"
+                    UnicodeAccessKey =72
+                    TopPadding =0
+                    BottomPadding =15
+                    GridlineColor =-2147483609
+                    BackStyle =0
+                    CursorOnHover =1
+                    LayoutCachedLeft =1020
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =3123
+                    LayoutCachedHeight =1200
+                    PictureCaptionArrangement =4
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =16777215
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =16777215
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =16777215
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =67
+                    Left =4562
+                    Top =840
+                    Width =1676
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =2
+                    Name ="cmdLabelWizard"
+                    Caption ="&Create Labels"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Create Labels"
+                    UnicodeAccessKey =67
+                    GridlineColor =-2147483609
+                    BackStyle =0
+                    CursorOnHover =1
+                    LayoutCachedLeft =4562
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =6238
+                    LayoutCachedHeight =1200
+                    PictureCaptionArrangement =4
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =16777215
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =16777215
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =16777215
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =65
+                    Left =10739
+                    Top =840
+                    Width =1691
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =4
+                    Name ="cmdAddNew"
+                    Caption ="&Add Company"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Add Record"
+                    UnicodeAccessKey =65
+                    GridlineColor =-2147483609
+                    BackStyle =0
+                    CursorOnHover =1
+                    LayoutCachedLeft =10739
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =12430
+                    LayoutCachedHeight =1200
+                    PictureCaptionArrangement =4
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =16777215
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =16777215
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =16777215
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    BackStyle =1
+                    OverlapFlags =85
+                    AccessKey =70
+                    Left =4320
+                    Top =120
+                    Width =6480
+                    Height =479
+                    BackColor =4342085
+                    BorderColor =14277081
+                    Name ="fraFilter"
+                    AfterUpdate ="[Event Procedure]"
+                    DefaultValue ="0"
+                    UnicodeAccessKey =70
+                    LayoutCachedLeft =4320
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =10800
+                    LayoutCachedHeight =599
+                    BackThemeColorIndex =-1
+                    BorderShade =85.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            TextAlign =3
+                            Left =4440
+                            Top =204
+                            Width =850
+                            Height =315
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            BackColor =-2147483611
+                            Name ="lblFilterBy"
+                            Caption ="&Filter By"
+                            LayoutCachedLeft =4440
+                            LayoutCachedTop =204
+                            LayoutCachedWidth =5290
+                            LayoutCachedHeight =519
+                            BackThemeColorIndex =-1
+                            BorderThemeColorIndex =1
+                            BorderTint =100.0
+                            BorderShade =95.0
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin OptionButton
+                            SpecialEffect =2
+                            OverlapFlags =87
+                            Left =5940
+                            Top =288
+                            OptionValue =0
+                            Name ="Option125"
+                            LayoutCachedLeft =5940
+                            LayoutCachedTop =288
+                            LayoutCachedWidth =6200
+                            LayoutCachedHeight =528
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    TextAlign =3
+                                    Left =5340
+                                    Top =204
+                                    Width =510
+                                    Height =315
+                                    LeftMargin =29
+                                    TopMargin =29
+                                    RightMargin =29
+                                    BottomMargin =22
+                                    BackColor =-2147483611
+                                    Name ="Label126"
+                                    Caption ="All"
+                                    LayoutCachedLeft =5340
+                                    LayoutCachedTop =204
+                                    LayoutCachedWidth =5850
+                                    LayoutCachedHeight =519
+                                    BackThemeColorIndex =-1
+                                    BorderThemeColorIndex =1
+                                    BorderTint =100.0
+                                    BorderShade =95.0
+                                    ForeThemeColorIndex =1
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            SpecialEffect =2
+                            OverlapFlags =87
+                            Left =7524
+                            Top =288
+                            TabIndex =1
+                            OptionValue =1
+                            Name ="Option127"
+                            LayoutCachedLeft =7524
+                            LayoutCachedTop =288
+                            LayoutCachedWidth =7784
+                            LayoutCachedHeight =528
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    TextAlign =3
+                                    Left =6384
+                                    Top =204
+                                    Width =1065
+                                    Height =315
+                                    LeftMargin =29
+                                    TopMargin =29
+                                    RightMargin =29
+                                    BottomMargin =22
+                                    Name ="Label128"
+                                    Caption ="Customers"
+                                    LayoutCachedLeft =6384
+                                    LayoutCachedTop =204
+                                    LayoutCachedWidth =7449
+                                    LayoutCachedHeight =519
+                                    BorderThemeColorIndex =1
+                                    BorderTint =100.0
+                                    BorderShade =95.0
+                                    ForeThemeColorIndex =1
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            SpecialEffect =2
+                            OverlapFlags =87
+                            Left =8964
+                            Top =288
+                            TabIndex =2
+                            OptionValue =2
+                            Name ="Option129"
+                            LayoutCachedLeft =8964
+                            LayoutCachedTop =288
+                            LayoutCachedWidth =9224
+                            LayoutCachedHeight =528
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    TextAlign =3
+                                    Left =8004
+                                    Top =204
+                                    Width =885
+                                    Height =315
+                                    LeftMargin =29
+                                    TopMargin =29
+                                    RightMargin =29
+                                    BottomMargin =22
+                                    Name ="Label130"
+                                    Caption ="Shippers"
+                                    LayoutCachedLeft =8004
+                                    LayoutCachedTop =204
+                                    LayoutCachedWidth =8889
+                                    LayoutCachedHeight =519
+                                    BorderThemeColorIndex =1
+                                    BorderTint =100.0
+                                    BorderShade =95.0
+                                    ForeThemeColorIndex =1
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                        Begin OptionButton
+                            SpecialEffect =2
+                            OverlapFlags =87
+                            AccessKey =86
+                            Left =10404
+                            Top =288
+                            TabIndex =3
+                            OptionValue =3
+                            Name ="Option131"
+                            UnicodeAccessKey =86
+                            LayoutCachedLeft =10404
+                            LayoutCachedTop =288
+                            LayoutCachedWidth =10664
+                            LayoutCachedHeight =528
+                            Begin
+                                Begin Label
+                                    OverlapFlags =87
+                                    TextAlign =3
+                                    Left =9444
+                                    Top =204
+                                    Width =855
+                                    Height =315
+                                    LeftMargin =29
+                                    TopMargin =29
+                                    RightMargin =29
+                                    BottomMargin =22
+                                    Name ="Label132"
+                                    Caption ="&Vendors"
+                                    LayoutCachedLeft =9444
+                                    LayoutCachedTop =204
+                                    LayoutCachedWidth =10299
+                                    LayoutCachedHeight =519
+                                    BorderThemeColorIndex =1
+                                    BorderTint =100.0
+                                    BorderShade =95.0
+                                    ForeThemeColorIndex =1
+                                    ForeTint =100.0
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =83
+                    Left =7677
+                    Top =840
+                    Width =1623
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="cmdShowFilter"
+                    Caption ="&Show Filter"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Show or hide existing fields"
+                    UnicodeAccessKey =83
+                    TopPadding =0
+                    BottomPadding =15
+                    GridlineColor =-2147483609
+                    BackStyle =0
+                    CursorOnHover =1
+                    LayoutCachedLeft =7677
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =9300
+                    LayoutCachedHeight =1200
+                    PictureCaptionArrangement =4
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    Shape =0
+                    Gradient =0
+                    BackColor =16777215
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =16777215
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =16777215
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    AccessKey =73
+                    PictureType =2
+                    Left =12830
+                    Top =120
+                    Width =360
+                    TabIndex =5
+                    Name ="cmdInfo"
+                    Caption ="&Info"
+                    Picture ="Help"
+                    HyperlinkAddress ="https://support.microsoft.com/topic/9b03e070-1710-4cb8-9dcd-3208e84180d4"
+                    UnicodeAccessKey =73
+                    HorizontalAnchor =1
+                    BackStyle =0
+                    LayoutCachedLeft =12830
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =13190
+                    LayoutCachedHeight =480
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    Gradient =0
+                    OldBorderStyle =0
+                End
+            End
+        End
+        Begin Section
+            Height =9100
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    TabStop = NotDefault
+                    IsHyperlink = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =420
+                    Width =4320
+                    Height =360
+                    ColumnWidth =720
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtCompanyID"
+                    ControlSource ="CompanyID"
+                    OnClick ="[Event Procedure]"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =780
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =420
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblCompanyID"
+                            Caption ="ID"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =420
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =780
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =970
+                    Width =4320
+                    Height =360
+                    ColumnWidth =3915
+                    FontSize =12
+                    FontWeight =600
+                    TabIndex =1
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtCompanyName"
+                    ControlSource ="CompanyName"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    AggregateType =2
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =970
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =1330
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =970
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblCompanyName"
+                            Caption ="Customer Name"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =970
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =1330
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =3120
+                    Width =4320
+                    Height =360
+                    ColumnWidth =1920
+                    FontSize =12
+                    TabIndex =9
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtAddress"
+                    ControlSource ="Address"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =3120
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =3480
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =3120
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblAddress"
+                            Caption ="Address"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =3120
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =3480
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =3670
+                    Width =4320
+                    Height =360
+                    ColumnWidth =1440
+                    FontSize =12
+                    TabIndex =11
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtCity"
+                    ControlSource ="City"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =3670
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =4030
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =3670
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblCity"
+                            Caption ="City"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =3670
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =4030
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =4220
+                    Width =4320
+                    Height =360
+                    ColumnWidth =1440
+                    FontSize =12
+                    TabIndex =13
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtState"
+                    ControlSource ="StateAbbrev"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =4220
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =4580
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =4220
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblState"
+                            Caption ="State"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =4220
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =4580
+                            RowStart =7
+                            RowEnd =7
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =4770
+                    Width =4320
+                    Height =360
+                    ColumnWidth =1440
+                    FontSize =12
+                    TabIndex =15
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtZip"
+                    ControlSource ="Zip"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =4770
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =5130
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =4770
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblZip"
+                            Caption ="Zip"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =4770
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =5130
+                            RowStart =8
+                            RowEnd =8
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =2020
+                    Width =4320
+                    Height =360
+                    ColumnWidth =2625
+                    FontSize =12
+                    TabIndex =5
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtBusinessPhone"
+                    ControlSource ="BusinessPhone"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =2020
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =2380
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =2020
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblBusinessPhone"
+                            Caption ="Business Phone"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =2020
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =2380
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =2570
+                    Width =4320
+                    Height =360
+                    ColumnWidth =4095
+                    FontSize =12
+                    FontWeight =600
+                    TabIndex =7
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="txtBusinessAddress"
+                    ControlSource ="BusinessAddress"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =2570
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =2930
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =2570
+                            Width =1860
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblBusinessAddress"
+                            Caption ="Business Address"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =2570
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =2930
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8490
+                    Top =1520
+                    Width =4620
+                    Height =310
+                    ColumnWidth =3270
+                    FontSize =12
+                    TabIndex =4
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtNotes"
+                    ControlSource ="Notes"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    TextFormat =1
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =1520
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =1830
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =6490
+                            Top =1520
+                            Width =1930
+                            Height =310
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblNotes"
+                            Caption ="Notes"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =6490
+                            LayoutCachedTop =1520
+                            LayoutCachedWidth =8420
+                            LayoutCachedHeight =1830
+                            RowStart =2
+                            RowEnd =2
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    TabStop = NotDefault
+                    IsHyperlink = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8490
+                    Top =2020
+                    Width =4620
+                    Height =360
+                    ColumnWidth =3795
+                    FontSize =12
+                    TabIndex =6
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtWebsite"
+                    ControlSource ="Website"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =2020
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =2380
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =6490
+                            Top =2020
+                            Width =1930
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblWebsite"
+                            Caption ="Website"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =6490
+                            LayoutCachedTop =2020
+                            LayoutCachedWidth =8420
+                            LayoutCachedHeight =2380
+                            RowStart =3
+                            RowEnd =3
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8490
+                    Top =2570
+                    Width =4620
+                    Height =360
+                    ColumnWidth =1440
+                    FontSize =12
+                    TabIndex =8
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtAddedBy"
+                    ControlSource ="AddedBy"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    ControlTipText ="Employee who added the Customer"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =2570
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =2930
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =6490
+                            Top =2570
+                            Width =1930
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblAddedBy"
+                            Caption ="Added By"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =6490
+                            LayoutCachedTop =2570
+                            LayoutCachedWidth =8420
+                            LayoutCachedHeight =2930
+                            RowStart =4
+                            RowEnd =4
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8490
+                    Top =3120
+                    Width =4620
+                    Height =360
+                    FontSize =12
+                    TabIndex =10
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtAddedOn"
+                    ControlSource ="AddedOn"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =3120
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =3480
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =6490
+                            Top =3120
+                            Width =1930
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblAddedOn"
+                            Caption ="Added On"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =6490
+                            LayoutCachedTop =3120
+                            LayoutCachedWidth =8420
+                            LayoutCachedHeight =3480
+                            RowStart =5
+                            RowEnd =5
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8490
+                    Top =3670
+                    Width =4620
+                    Height =360
+                    ColumnWidth =2310
+                    FontSize =12
+                    TabIndex =12
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtModifiedBy"
+                    ControlSource ="ModifiedBy"
+                    OnMouseDown ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =3670
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =4030
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =6490
+                            Top =3670
+                            Width =1930
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblModifiedBy"
+                            Caption ="Modified By"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =6490
+                            LayoutCachedTop =3670
+                            LayoutCachedWidth =8420
+                            LayoutCachedHeight =4030
+                            RowStart =6
+                            RowEnd =6
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8490
+                    Top =4220
+                    Width =4620
+                    Height =360
+                    ColumnWidth =3495
+                    FontSize =12
+                    TabIndex =14
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtModifiedOn"
+                    ControlSource ="ModifiedOn"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =4220
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =4580
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =6490
+                            Top =4220
+                            Width =1930
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblModifiedOn"
+                            Caption ="Modified On"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =6490
+                            LayoutCachedTop =4220
+                            LayoutCachedWidth =8420
+                            LayoutCachedHeight =4580
+                            RowStart =7
+                            RowEnd =7
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2110
+                    Top =1520
+                    Width =4320
+                    Height =310
+                    ColumnWidth =1905
+                    FontSize =12
+                    TabIndex =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="CompanyType"
+                    ControlSource ="CompanyType"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =2110
+                    LayoutCachedTop =1520
+                    LayoutCachedWidth =6430
+                    LayoutCachedHeight =1830
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =180
+                            Top =1520
+                            Width =1860
+                            Height =310
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="Label62"
+                            Caption ="CompanyType"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =1520
+                            LayoutCachedWidth =2040
+                            LayoutCachedHeight =1830
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8490
+                    Top =970
+                    Width =4620
+                    Height =360
+                    ColumnWidth =1740
+                    FontSize =12
+                    TabIndex =2
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="TaxStatus"
+                    ControlSource ="TaxStatus"
+                    OnDblClick ="=Open_frmCompanyDetail(\"\")"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =970
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =1330
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =6490
+                            Top =970
+                            Width =1930
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="Label77"
+                            Caption ="TaxStatus"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =6490
+                            LayoutCachedTop =970
+                            LayoutCachedWidth =8420
+                            LayoutCachedHeight =1330
+                            RowStart =1
+                            RowEnd =1
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin EmptyCell
+                    Left =8490
+                    Top =420
+                    Width =4620
+                    Height =360
+                    Name ="EmptyCell205"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =780
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =8490
+                    Top =4770
+                    Width =4620
+                    Height =360
+                    Name ="EmptyCell213"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =8490
+                    LayoutCachedTop =4770
+                    LayoutCachedWidth =13110
+                    LayoutCachedHeight =5130
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =6490
+                    Top =420
+                    Width =1930
+                    Height =360
+                    Name ="EmptyCell221"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =6490
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =8420
+                    LayoutCachedHeight =780
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =6490
+                    Top =4770
+                    Width =1930
+                    Height =360
+                    Name ="EmptyCell229"
+                    GroupTable =1
+                    BottomPadding =150
+                    LayoutCachedLeft =6490
+                    LayoutCachedTop =4770
+                    LayoutCachedWidth =8420
+                    LayoutCachedHeight =5130
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+            End
+        End
+        Begin FormFooter
+            Height =240
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
+CodeBehindForm
+' See "frmCompanyList.cls"

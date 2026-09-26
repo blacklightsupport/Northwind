@@ -1,0 +1,430 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    KeyPreview = NotDefault
+    AllowDesignChanges = NotDefault
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =7800
+    DatasheetFontHeight =11
+    ItemSuffix =136
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x843ef5fe6fdde540
+    End
+    RecordSource ="qryPurchaseOrderLineItems"
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    OnError ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =360
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    Width =7800
+                    Height =360
+                    BorderColor =12632256
+                    Name ="boxHeaderControls"
+                    GridlineColor =0
+                    HorizontalAnchor =2
+                    LayoutCachedWidth =7800
+                    LayoutCachedHeight =360
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =60
+                    Width =480
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label0"
+                    Caption ="#"
+                    LayoutCachedLeft =60
+                    LayoutCachedWidth =540
+                    LayoutCachedHeight =360
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =720
+                    Width =1620
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label1"
+                    Caption ="Product"
+                    LayoutCachedLeft =720
+                    LayoutCachedWidth =2340
+                    LayoutCachedHeight =360
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =223
+                    Left =4200
+                    Width =1020
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label2"
+                    Caption ="Quantity"
+                    LayoutCachedLeft =4200
+                    LayoutCachedWidth =5220
+                    LayoutCachedHeight =360
+                    ColumnStart =2
+                    ColumnEnd =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =5220
+                    Width =1078
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label3"
+                    Caption ="Unit Cost"
+                    LayoutCachedLeft =5220
+                    LayoutCachedWidth =6298
+                    LayoutCachedHeight =360
+                    ColumnStart =3
+                    ColumnEnd =3
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextAlign =3
+                    Left =6420
+                    Width =1198
+                    Height =360
+                    FontSize =12
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Label122"
+                    Caption ="Cost"
+                    LayoutCachedLeft =6420
+                    LayoutCachedWidth =7618
+                    LayoutCachedHeight =360
+                    ColumnStart =3
+                    ColumnEnd =3
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin Section
+            Height =360
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =60
+                    Width =600
+                    Height =360
+                    ColumnWidth =1170
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="PurchaseOrderDetailID"
+                    ControlSource ="PurchaseOrderDetailID"
+                    OnClick ="[Event Procedure]"
+
+                    LayoutCachedLeft =60
+                    LayoutCachedWidth =660
+                    LayoutCachedHeight =360
+                    DisplayAsHyperlink =2
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =5280
+                    Width =1080
+                    Height =360
+                    TabIndex =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="UnitCost"
+                    ControlSource ="UnitCost"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =5280
+                    LayoutCachedWidth =6360
+                    LayoutCachedHeight =360
+                    ColumnStart =3
+                    ColumnEnd =3
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4140
+                    Width =1080
+                    Height =360
+                    TabIndex =2
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Quantity"
+                    ControlSource ="Quantity"
+
+                    LayoutCachedLeft =4140
+                    LayoutCachedWidth =5220
+                    LayoutCachedHeight =360
+                    ColumnStart =2
+                    ColumnEnd =2
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    ForeShade =50.0
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    ListWidth =5040
+                    Left =720
+                    Width =3360
+                    Height =360
+                    TabIndex =1
+                    Name ="ProductID"
+                    ControlSource ="ProductID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qrycboProducts_PO"
+                    ColumnWidths ="0;1440;0"
+                    StatusBarText ="Double-click to open this Product."
+                    AfterUpdate ="[Event Procedure]"
+                    AllowValueListEdits =0
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+
+                    LayoutCachedLeft =720
+                    LayoutCachedWidth =4080
+                    LayoutCachedHeight =360
+                    ColumnStart =1
+                    ColumnEnd =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =6420
+                    Width =1320
+                    Height =360
+                    TabIndex =4
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Price"
+                    ControlSource ="=[Quantity]*[UnitCost]"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =6420
+                    LayoutCachedWidth =7740
+                    LayoutCachedHeight =360
+                    ColumnStart =3
+                    ColumnEnd =3
+                End
+            End
+        End
+        Begin FormFooter
+            Height =480
+            BackColor =-2147483612
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =6420
+                    Top =60
+                    Width =1320
+                    Height =360
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtSubTotal"
+                    ControlSource ="=Sum([Quantity]*[UnitCost])"
+                    Format ="£#,##0.00;-£#,##0.00"
+                    StatusBarText ="Subtotal does not include tax."
+
+                    LayoutCachedLeft =6420
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7740
+                    LayoutCachedHeight =420
+                    ColumnStart =3
+                    ColumnEnd =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =3
+                            Left =5220
+                            Top =60
+                            Width =1123
+                            Height =389
+                            FontSize =12
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =4210752
+                            Name ="Label124"
+                            Caption ="SubTotal"
+                            LayoutCachedLeft =5220
+                            LayoutCachedTop =60
+                            LayoutCachedWidth =6343
+                            LayoutCachedHeight =449
+                            ColumnStart =3
+                            ColumnEnd =3
+                            ForeTint =75.0
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "sfrmPurchaseOrderLineItems.cls"

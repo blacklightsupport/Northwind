@@ -1,0 +1,10 @@
+﻿SELECT
+  ProductVendors.ProductVendorID,
+  ProductVendors.ProductID,
+  ProductVendors.VendorID,
+  ProductVendors.AddedBy,
+  ProductVendors.AddedOn,
+  ProductVendors.ModifiedBy,
+  ProductVendors.ModifiedOn
+FROM
+  ProductVendors;

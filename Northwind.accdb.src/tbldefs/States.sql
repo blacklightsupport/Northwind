@@ -1,0 +1,4 @@
+﻿CREATE TABLE [States] (
+  [StateAbbrev] VARCHAR (2) CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [StateName] VARCHAR (50) CONSTRAINT [StateName] UNIQUE
+)

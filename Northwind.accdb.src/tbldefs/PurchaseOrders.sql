@@ -1,0 +1,20 @@
+﻿CREATE TABLE [PurchaseOrders] (
+  [PurchaseOrderID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [VendorID] LONG,
+  [SubmittedByID] LONG,
+  [SubmittedDate] DATETIME,
+  [ApprovedByID] LONG,
+  [ApprovedDate] DATETIME,
+  [StatusID] LONG CONSTRAINT [New_New_PurchaseOrdersStatusPurchaseOrders] REFERENCES [PurchaseOrderStatus] ([StatusID]),
+  [ReceivedDate] DATETIME,
+  [ShippingFee] CURRENCY,
+  [TaxAmount] CURRENCY,
+  [PaymentDate] DATETIME,
+  [PaymentAmount] CURRENCY,
+  [PaymentMethod] VARCHAR (50),
+  [Notes] LONGTEXT,
+  [AddedBy] VARCHAR (255),
+  [AddedOn] DATETIME,
+  [ModifiedBy] VARCHAR (255),
+  [ModifiedOn] DATETIME
+)

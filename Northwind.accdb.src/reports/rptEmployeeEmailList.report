@@ -1,0 +1,793 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =11510
+    DatasheetFontHeight =11
+    ItemSuffix =102
+    OnNoData ="[Event Procedure]"
+    RecSrcDt = Begin
+        0x82cbb261b2dbe540
+    End
+    RecordSource ="qryrptEmployeeEmailList"
+    Caption ="Northwoind Employee Email List"
+    OnClose ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    OnActivate ="[Event Procedure]"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =0
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin OptionGroup
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin BoundObjectFrame
+            AddColon = NotDefault
+            SizeMode =3
+            BorderLineStyle =0
+            LabelX =-1800
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            GridlineColor =-2147483609
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+        End
+        Begin Chart
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin UnboundObjectFrame
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin ToggleButton
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            UseTheme =1
+            Shape =2
+            Bevel =1
+            BackThemeColorIndex =4
+            BackTint =60.0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =1
+        End
+        Begin Tab
+            FontSize =11
+            FontName ="Calibri Light"
+            GridlineColor =-2147483609
+            ThemeFontIndex =0
+            UseTheme =1
+            Shape =3
+            BackThemeColorIndex =1
+            BackShade =85.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =2
+            BorderTint =60.0
+            HoverThemeColorIndex =1
+            PressedThemeColorIndex =1
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin Page
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin Attachment
+            BackStyle =0
+            BorderLineStyle =0
+            PictureSizeMode =3
+            Width =3200
+            Height =2560
+            GridlineColor =-2147483609
+            LabelX =-1800
+            AddColon =0
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineColor =-2147483609
+        End
+        Begin WebBrowser
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin NavigationControl
+            BorderWidth =1
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            GridlineColor =-2147483609
+        End
+        Begin NavigationButton
+            GridlineColor =-2147483609
+            HoverThemeColorIndex =2
+            HoverTint =20.0
+            PressedThemeColorIndex =2
+            PressedTint =60.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            BackThemeColorIndex =1
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            FontName ="Calibri"
+            FontWeight =400
+            FontSize =11
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ModernChart
+            OldBorderStyle =0
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            ChartTitle ="Chart Title"
+            ChartTitleFontName ="Calibri"
+            ThemeFontIndex =1
+            ChartSubtitle ="Subtitle"
+        End
+        Begin Edge
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            GridlineTint =65.0
+        End
+        Begin BreakLevel
+            ControlSource ="FullNameFNLN"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =1200
+            BackColor =-2147483611
+            Name ="ReportHeader"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =5840
+                    Top =870
+                    Width =4320
+                    Height =300
+                    ColumnOrder =0
+                    TabIndex =1
+                    Name ="Auto_Date"
+                    ControlSource ="=Date()"
+                    Format ="Long Date"
+                    GroupTable =3
+                    LayoutCachedLeft =5840
+                    LayoutCachedTop =870
+                    LayoutCachedWidth =10160
+                    LayoutCachedHeight =1170
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GroupTable =3
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =5840
+                    Top =360
+                    Width =4320
+                    Height =450
+                    ColumnOrder =1
+                    Name ="Auto_Time"
+                    ControlSource ="=Time()"
+                    Format ="Long Time"
+                    GroupTable =3
+                    LayoutCachedLeft =5840
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =10160
+                    LayoutCachedHeight =810
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    GroupTable =3
+                    Begin
+                        Begin Label
+                            TextAlign =1
+                            Left =810
+                            Top =360
+                            Width =4970
+                            Height =450
+                            FontSize =18
+                            Name ="Auto_Header0"
+                            Caption ="Northwind Employee Email List"
+                            FontName ="Calibri Light"
+                            GroupTable =3
+                            HorizontalAnchor =2
+                            LayoutCachedLeft =810
+                            LayoutCachedTop =360
+                            LayoutCachedWidth =5780
+                            LayoutCachedHeight =810
+                            ColumnStart =1
+                            ColumnEnd =1
+                            LayoutGroup =2
+                            ThemeFontIndex =0
+                            BorderThemeColorIndex =2
+                            BorderTint =100.0
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            GridlineThemeColorIndex =1
+                            GridlineShade =65.0
+                            GroupTable =3
+                        End
+                    End
+                End
+                Begin Image
+                    BackStyle =0
+                    PictureType =2
+                    Left =30
+                    Top =360
+                    Width =720
+                    Height =450
+                    Name ="Auto_Logo0"
+                    Picture ="NW2Logo"
+                    GroupTable =3
+                    LayoutCachedLeft =30
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =750
+                    LayoutCachedHeight =810
+                    TabIndex =2
+                    LayoutGroup =2
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =3
+                End
+                Begin EmptyCell
+                    Left =30
+                    Top =870
+                    Width =720
+                    Height =300
+                    Name ="EmptyCell68"
+                    GroupTable =3
+                    LayoutCachedLeft =30
+                    LayoutCachedTop =870
+                    LayoutCachedWidth =750
+                    LayoutCachedHeight =1170
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                End
+                Begin EmptyCell
+                    Left =810
+                    Top =870
+                    Width =4970
+                    Height =300
+                    Name ="EmptyCell69"
+                    GroupTable =3
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =810
+                    LayoutCachedTop =870
+                    LayoutCachedWidth =5780
+                    LayoutCachedHeight =1170
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =3
+                End
+            End
+        End
+        Begin PageHeader
+            Height =433
+            Name ="PageHeaderSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    Left =60
+                    Top =60
+                    Width =560
+                    Height =343
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="lblEmployeeID"
+                    Caption ="ID"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =620
+                    LayoutCachedHeight =403
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =680
+                    Top =60
+                    Width =2880
+                    Height =343
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="LblFirstnameLastName"
+                    Caption ="Full Name"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =680
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3560
+                    LayoutCachedHeight =403
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =3620
+                    Top =60
+                    Width =4070
+                    Height =343
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="lblEmaiLAddress"
+                    Caption ="Email Address"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =3620
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7690
+                    LayoutCachedHeight =403
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =420
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =60
+                    Top =30
+                    Width =560
+                    Height =360
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="txtEmployeeID"
+                    ControlSource ="EmployeeID"
+                    GroupTable =1
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =620
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =680
+                    Top =30
+                    Width =2880
+                    Height =360
+                    ColumnWidth =2565
+                    ColumnOrder =3
+                    TabIndex =1
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="txtFullNameFNLN"
+                    ControlSource ="FullNameFNLN"
+                    GroupTable =1
+                    LayoutCachedLeft =680
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =3560
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =3620
+                    Top =30
+                    Width =4070
+                    Height =360
+                    ColumnWidth =3945
+                    ColumnOrder =5
+                    TabIndex =2
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="txtEmailAddress"
+                    ControlSource ="EmailAddress"
+                    GroupTable =1
+                    LayoutCachedLeft =3620
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =7690
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+            End
+        End
+        Begin PageFooter
+            Height =300
+            Name ="PageFooterSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =2
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =5880
+                    Width =3600
+                    Height =300
+                    ColumnOrder =0
+                    ForeColor =0
+                    Name ="txtPageNumber"
+                    ControlSource ="=\"Page \" & [Page] & \" of \" & [Pages]"
+                    LayoutCachedLeft =5880
+                    LayoutCachedWidth =9480
+                    LayoutCachedHeight =300
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =530
+            Name ="ReportFooter"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =60
+                    Top =140
+                    Width =560
+                    Height =360
+                    ColumnOrder =0
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =0
+                    Name ="txtEmployeeCount"
+                    ControlSource ="=Count(*)"
+                    ControlTipText ="Record Count"
+                    GroupTable =1
+                    GridlineStyleTop =1
+                    GridlineWidthTop =2
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =140
+                    LayoutCachedWidth =620
+                    LayoutCachedHeight =500
+                    RowStart =2
+                    RowEnd =2
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =3620
+                    Top =140
+                    Width =4070
+                    Height =360
+                    Name ="EmptyCell44"
+                    GroupTable =1
+                    LayoutCachedLeft =3620
+                    LayoutCachedTop =140
+                    LayoutCachedWidth =7690
+                    LayoutCachedHeight =500
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =680
+                    Top =140
+                    Width =2880
+                    Height =360
+                    Name ="EmptyCell101"
+                    GroupTable =1
+                    LayoutCachedLeft =680
+                    LayoutCachedTop =140
+                    LayoutCachedWidth =3560
+                    LayoutCachedHeight =500
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "rptEmployeeEmailList.cls"

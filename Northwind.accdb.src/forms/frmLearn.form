@@ -1,0 +1,883 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =11520
+    DatasheetFontHeight =11
+    ItemSuffix =2
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x16f1ebdcd30ce640
+    End
+    Caption ="Learn About Northwind"
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin Edge
+            OldBorderStyle =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =0
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+        End
+        Begin Section
+            Height =7560
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    OverlapFlags =93
+                    Left =1440
+                    Top =2160
+                    Width =8100
+                    Height =960
+                    Name ="lblReportandLink"
+                    Caption ="This form uses the new (as of 2023) Edge Browser control, which is not available"
+                        " in older versions of Access. For those, please click the button to open an Acce"
+                        "ss report with the same content.\015\012\015\012You may also use the hyperlink t"
+                        "o view the Learn Document online."
+                    LayoutCachedLeft =1440
+                    LayoutCachedTop =2160
+                    LayoutCachedWidth =9540
+                    LayoutCachedHeight =3120
+                End
+                Begin CommandButton
+                    OverlapFlags =93
+                    Left =4320
+                    Top =3312
+                    Width =1476
+                    Name ="cmdOpenReport"
+                    Caption ="Preview Report"
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="OpenReport"
+                            Argument ="rptLearn"
+                            Argument ="2"
+                            Argument =""
+                            Argument =""
+                            Argument ="0"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdOpenReport\" xmlns=\"http://schemas.microsoft.com/office/"
+                                "accessservices/2009/11/application\"><Statements><Action Name=\"OpenReport\"><Ar"
+                                "gument Name=\"ReportName\">rptLea"
+                        End
+                        Begin
+                            Comment ="_AXL:rn</Argument><Argument Name=\"View\">Print Preview</Argument></Action></Sta"
+                                "tements></UserInterfaceMacro>"
+                        End
+                    End
+                    LayoutCachedLeft =4320
+                    LayoutCachedTop =3312
+                    LayoutCachedWidth =5796
+                    LayoutCachedHeight =3672
+                    Gradient =0
+                    BackColor =-2147483603
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    Overlaps =1
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    OverlapFlags =93
+                    TextAlign =2
+                    Left =1440
+                    Top =4320
+                    Width =8100
+                    Height =960
+                    Name ="lblHyperLink"
+                    Caption ="View Learn document in your browser"
+                    HyperlinkAddress ="https://support.office.com/f1/topic/a685f382-e246-4f55-888f-52e4766868f8"
+                    LayoutCachedLeft =1440
+                    LayoutCachedTop =4320
+                    LayoutCachedWidth =9540
+                    LayoutCachedHeight =5280
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                End
+                Begin Edge
+                    OverlapFlags =215
+                    Width =11520
+                    Height =7560
+                    TabIndex =1
+                    Name ="EdgeBrowser2"
+                    HorizontalAnchor =2
+                    VerticalAnchor =2
+                    LayoutCachedWidth =11520
+                    LayoutCachedHeight =7560
+                    ControlSource ="=\"https://support.office.com/f1/topic/a685f382-e246-4f55-888f-52e4766868f8\""
+                End
+            End
+        End
+        Begin FormFooter
+            Height =1584
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Top =240
+                    Width =3120
+                    Height =480
+                    FontSize =16
+                    BorderColor =0
+                    ForeColor =5066061
+                    Name ="lblAccessTraining"
+                    Caption ="Access Online Training\015\012"
+                    FontName ="Segoe UI Semilight"
+                    GridlineColor =0
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =3120
+                    LayoutCachedHeight =720
+                    ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =7230
+                    Top =240
+                    Width =2640
+                    Height =480
+                    FontSize =16
+                    BorderColor =0
+                    ForeColor =5066061
+                    Name ="lblFeedback"
+                    Caption ="Access Community\015\012"
+                    FontName ="Segoe UI Semilight"
+                    GridlineColor =0
+                    LayoutCachedLeft =7230
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =9870
+                    LayoutCachedHeight =720
+                    ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =93
+                    Left =7920
+                    Top =780
+                    Width =2280
+                    FontSize =10
+                    ForeColor =12673797
+                    Name ="cmdFeedback"
+                    Caption ="Access  Tech Community"
+                    FontName ="Segoe UI"
+                    ControlTipText ="Access Tech Community"
+                    HyperlinkAddress ="https://techcommunity.microsoft.com/t5/access/ct-p/Access_Cat"
+                    GridlineColor =0
+                    BackStyle =0
+                    CursorOnHover =1
+                    LayoutCachedLeft =7920
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =10200
+                    LayoutCachedHeight =1140
+                    PictureCaptionArrangement =5
+                    Alignment =1
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    UseTheme =0
+                    Shape =0
+                    Gradient =0
+                    BackColor =16777215
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =16777215
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =16777215
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    Left =720
+                    Top =780
+                    Width =2280
+                    Height =660
+                    FontSize =10
+                    TabIndex =1
+                    ForeColor =12673797
+                    Name ="cmdLearnMoreAboutAccess"
+                    Caption ="Learn more about Access"
+                    FontName ="Segoe UI"
+                    ControlTipText ="Learn About Access"
+                    HyperlinkAddress ="https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4"
+                        "d79-a862-e2dda6ef38e6"
+                    GridlineColor =0
+                    BackStyle =0
+                    CursorOnHover =1
+                    LayoutCachedLeft =720
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =3000
+                    LayoutCachedHeight =1440
+                    PictureCaptionArrangement =5
+                    Alignment =1
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    UseTheme =0
+                    Shape =0
+                    Gradient =0
+                    BackColor =16777215
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =16777215
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =16777215
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BorderWidth =1
+                    OverlapFlags =85
+                    Left =3600
+                    Width =0
+                    Height =1440
+                    BorderColor =14869218
+                    Name ="Box70"
+                    GridlineColor =0
+                    LayoutCachedLeft =3600
+                    LayoutCachedWidth =3600
+                    LayoutCachedHeight =1440
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Image
+                    Left =7140
+                    Top =780
+                    Width =720
+                    Height =660
+                    BorderColor =0
+                    Name ="imgNorthwindTradersFeedback"
+                    ControlTipText ="Northwind Traders Feedback"
+                    Picture ="feedback_32x.bmp"
+                    GridlineColor =0
+                    ImageData = Begin
+                        0x424d381000000000000036000000280000002000000020000000010020000000 ,
+                        0x000002100000120b0000120b00000000000000000000ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00bebebe88ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ffbebebe88ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffbebebe88ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ff858585ffbebebe88ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ff858585ff858585ffbebebe88ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffc5c5c579858585ff858585ffbebebe88ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585fff7f7f710cdcdcd69858585ff858585ffbebe ,
+                        0xbe88ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585fff7f7f710ffffff00cdcdcd69858585ff8585 ,
+                        0x85ffbebebe88ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585ff858585ff858585fff7f7f710ffffff00ffffff00cdcdcd698585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585ff858585ff858585fff7f7f710ffffff00ffffff00ffffff00cdcd ,
+                        0xcd69858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff0f0f01ff7f7f710ffffff01ffffff00ffffff00ffffff00ffff ,
+                        0xff00f8f8f80ef7f7f710f7f7f710f7f7f710f7f7f710f7f7f710f7f7f710f7f7 ,
+                        0xf710f7f7f710f7f7f710f7f7f710f7f7f710f7f7f710f7f7f710f7f7f710f7f7 ,
+                        0xf710f7f7f710858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585fff7f7f710ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ffffffff00ffffff00ffffff00ffffff008585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff858585ff858585ffffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff000000
+                    End
+                    LayoutCachedLeft =7140
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =7860
+                    LayoutCachedHeight =1440
+                    TabIndex =3
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Image
+                    Top =780
+                    Width =720
+                    Height =660
+                    BorderColor =0
+                    Name ="imgNorthwindTradersCommunity"
+                    ControlTipText ="Northwind Traders Community"
+                    Picture ="community_32.bmp"
+                    GridlineColor =0
+                    ImageData = Begin
+                        0x424d381000000000000036000000280000002000000020000000010020000000 ,
+                        0x000002100000120b0000120b00000000000000000000ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff008787 ,
+                        0x87fa858585fff4f4f418ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00f4f4f418858585ff878787faffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff009a9a ,
+                        0x9ad3858585ffd3d3d35dffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00d3d3d35d858585ff9a9a9ad3ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00c5c5 ,
+                        0xc579858585ff939393e2f4f4f417ffffff00ffffff00ffffff00ffffff00f4f4 ,
+                        0xf417939393e2858585ffc5c5c579ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00fafa ,
+                        0xfa0b979797d9858585ff939393e2d3d3d35df4f4f418f4f4f418d3d3d35d9393 ,
+                        0x93e2858585ff979797d9fafafa0bffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00eeeeee24979797d9858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff979797d9eeeeee24ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00b5b5b59a858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ffb5b5b59affffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00d4d4d45a858585ff868686fdc3c3c37df2f2f21bf2f2f21bc3c3c37d8686 ,
+                        0x86fd858585ffd4d4d45affffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff009f9f9fc9858585ffc3c3c37dffffff00ffffff00ffffff00ffffff00c3c3 ,
+                        0xc37d858585ff9f9f9fc9ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00878787fa858585fff2f2f21bffffff00ffffff00ffffff00ffffff00f2f2 ,
+                        0xf21b858585ff878787faffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00878787fa8585 ,
+                        0x85fff4f4f418ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00f4f4 ,
+                        0xf418858585ff858585fff2f2f21bffffff00ffffff00ffffff00ffffff00f2f2 ,
+                        0xf21b858585ff858585fff4f4f418ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00f4f4f418858585ff878787faffffff00ffffff009a9a9ad38585 ,
+                        0x85ffd3d3d35dffffff00ffffff00ffffff00ffffff00ffffff00ffffff00d3d3 ,
+                        0xd35d858585ff858585ffc3c3c37dffffff00ffffff00ffffff00ffffff00c3c3 ,
+                        0xc37d858585ff858585ffd3d3d35dffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00d3d3d35d858585ff9a9a9ad3ffffff00ffffff00c5c5c5798585 ,
+                        0x85ff939393e2f4f4f417ffffff00ffffff00ffffff00ffffff00f4f4f4179393 ,
+                        0x93e2858585ff858585ff868686fdc3c3c37df2f2f21bf2f2f21bc3c3c37d8686 ,
+                        0x86fd858585ff858585ff939393e2f4f4f417ffffff00ffffff00ffffff00ffff ,
+                        0xff00f4f4f417939393e2858585ffc5c5c579ffffff00ffffff00fafafa0b9797 ,
+                        0x97d9858585ff939393e2d3d3d35df4f4f418f4f4f418d3d3d35d939393e28585 ,
+                        0x85ff979797d9b5b5b59a858585ff858585ff858585ff858585ff858585ff8585 ,
+                        0x85ffb5b5b59a979797d9858585ff939393e2d3d3d35df4f4f418f4f4f418d3d3 ,
+                        0xd35d939393e2858585ff979797d9fafafa0bffffff00ffffff00ffffff00eeee ,
+                        0xee24979797d9858585ff858585ff858585ff858585ff858585ff858585ff9797 ,
+                        0x97d9eeeeee24ffffff00d4d4d45a9f9f9fc9878787fa878787fa9f9f9fc9d4d4 ,
+                        0xd45affffff00eeeeee24979797d9858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ff979797d9eeeeee24ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00b5b5b59a858585ff858585ff858585ff858585ff858585ff858585ffb5b5 ,
+                        0xb59affffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00b5b5b59a858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ffb5b5b59affffff00ffffff00ffffff00ffffff00ffffff00d4d4 ,
+                        0xd45a858585ff868686fdc3c3c37df2f2f21bf2f2f21bc3c3c37d868686fd8585 ,
+                        0x85ffd4d4d45affffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00d4d4d45a858585ff868686fdc3c3c37df2f2f21bf2f2f21bc3c3 ,
+                        0xc37d868686fd858585ffd4d4d45affffff00ffffff00ffffff00ffffff009f9f ,
+                        0x9fc9858585ffc3c3c37dffffff00ffffff00ffffff00ffffff00c3c3c37d8585 ,
+                        0x85ff9f9f9fc9ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff009f9f9fc9858585ffc3c3c37dffffff00ffffff00ffffff00ffff ,
+                        0xff00c3c3c37d858585ff9f9f9fc9ffffff00ffffff00ffffff00ffffff008787 ,
+                        0x87fa858585fff2f2f21bffffff00ffffff00ffffff00ffffff00f2f2f21b8585 ,
+                        0x85ff878787faffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00878787fa858585fff2f2f21bffffff00ffffff00ffffff00ffff ,
+                        0xff00f2f2f21b858585ff878787faffffff00ffffff00ffffff00ffffff008787 ,
+                        0x87fa858585fff2f2f21bffffff00ffffff00ffffff00ffffff00f2f2f21b8585 ,
+                        0x85ff878787faffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00878787fa858585fff2f2f21bffffff00ffffff00ffffff00ffff ,
+                        0xff00f2f2f21b858585ff878787faffffff00ffffff00ffffff00ffffff009f9f ,
+                        0x9fc9858585ffc3c3c37dffffff00ffffff00ffffff00ffffff00c3c3c37d8585 ,
+                        0x85ff9f9f9fc9ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff009f9f9fc9858585ffc3c3c37dffffff00ffffff00ffffff00ffff ,
+                        0xff00c3c3c37d858585ff9f9f9fc9ffffff00ffffff00ffffff00ffffff00d4d4 ,
+                        0xd45a858585ff868686fdc3c3c37df2f2f21bf2f2f21bc3c3c37d868686fd8585 ,
+                        0x85ffd4d4d45affffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00d4d4d45a858585ff868686fdc3c3c37df2f2f21bf2f2f21bc3c3 ,
+                        0xc37d868686fd858585ffd4d4d45affffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00b8b8b895858585ff858585ff858585ff858585ff858585ff858585ffb8b8 ,
+                        0xb895ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00b8b8b895858585ff858585ff858585ff858585ff8585 ,
+                        0x85ff858585ffb8b8b895ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00d4d4d45a9f9f9fc9878787fa878787fa9f9f9fc9d4d4d45affff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00d4d4d45a9f9f9fc9878787fa878787fa9f9f ,
+                        0x9fc9d4d4d45affffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffffff00ffff ,
+                        0xff00ffffff00ffffff00ffffff00ffffff00ffffff000000
+                    End
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =720
+                    LayoutCachedHeight =1440
+                    TabIndex =4
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin CommandButton
+                    FontUnderline = NotDefault
+                    OverlapFlags =87
+                    Left =7920
+                    Top =1140
+                    Width =2280
+                    FontSize =10
+                    TabIndex =2
+                    ForeColor =12673797
+                    Name ="cmdAccessForum"
+                    Caption ="Access  Forum"
+                    FontName ="Segoe UI"
+                    ControlTipText ="Access Forum"
+                    HyperlinkAddress ="https://answers.microsoft.com/en-us/msoffice/forum/msoffice_access"
+                    GridlineColor =0
+                    BackStyle =0
+                    CursorOnHover =1
+                    LayoutCachedLeft =7920
+                    LayoutCachedTop =1140
+                    LayoutCachedWidth =10200
+                    LayoutCachedHeight =1500
+                    PictureCaptionArrangement =5
+                    Alignment =1
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                    UseTheme =0
+                    Shape =0
+                    Gradient =0
+                    BackColor =16777215
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ThemeFontIndex =-1
+                    HoverColor =16777215
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =16777215
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =16777215
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =16777215
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin Image
+                    Left =4620
+                    Top =780
+                    Width =780
+                    Height =660
+                    BorderColor =0
+                    Name ="imgNorthwindTradersVideo"
+                    ControlTipText ="Northwind Traders Video Introduction"
+                    Picture ="VideoPlayFRE.80x80x32.png"
+                    HyperlinkAddress ="https://support.microsoft.com/topic/32eb79d2-bede-4ea4-b575-0714ca8dc1e2"
+                    GridlineColor =0
+                    ImageData = Begin
+                        0x89504e470d0a1a0a0000000d49484452000000500000005008060000008e11f2 ,
+                        0xad000000017352474200aece1ce90000000467414d410000b18f0bfc61050000 ,
+                        0x00097048597300000ec300000ec301c76fa8640000082549444154785edd9c5f ,
+                        0x88166514c61782201002410c43290c124209844014f226f0364884400882bd0a ,
+                        0x6f42100d5941f442bc311592eea41b0d4430fa0341e0551008a1a546852419b1 ,
+                        0x9525fd594bedf9ad67d8d9b36776e6fbe67d67be6f1f782e76def39ee79cd96f ,
+                        0xdeff33137d62727272adf8a6785afc4afc55fcd3f8c0b1b88e0db6d4a1ee5a73 ,
+                        0xb7f4a164978b53e2e7e2dfa2bf49c3125ff8c4f772935b3a5052bbc4afc5fb62 ,
+                        0x740352120db47699fc7842092c1379ccee8a51a25d106d625866618d3e142c8f ,
+                        0xe919f13f314a6a10fe6c8cca0621b1bc2f8ef6e3ad00f78b83fce26e8b17c403 ,
+                        0xe24e71a3f8a8b95b00cacc065bea50171f91ef88c43665ee46070a6a93f8a305 ,
+                        0x59c7abe23e7193556f0d7c994f7c479a9ec49a4cbf1514c821b1ae73b8239e14 ,
+                        0x5fb06ad9808669a119c55290980f59b5ee21713a894b164c1579bc0e8a9db73d ,
+                        0x689a76dd234e0edd7632127c4afcdd028848a3fdb6f8b855e90dc460b12cd6a9 ,
+                        0x914b37037209f188fc63c211bf109f37f3910131596c51cc909cf2363112d826 ,
+                        0xfe6b82110f8b8f98f9c881d8441eeb2876486e2f99795ac831c387aac780b15a ,
+                        0x1ee10c20568b39ca851c379a691ac82193feaab9eb77e233663a3620668b3dca ,
+                        0x895cd3b48972446f5bd561d0833d61a6630762b71ca2dcfe10dbf7ce725225f0 ,
+                        0xa5d87b2fdb16e460b944395e32b3e12007550dee37e2d8fef23cc8c5728a723d ,
+                        0x686683411519ae44330c1adfd66d9e7cbc63dc69977a05398951c7c23d187c78 ,
+                        0xa34ab74a4ecadc6626ade07c32d0ed7df8a31818a695e32af8939934832ab0b2 ,
+                        0x1b393a6c26ad11f8fe50ec7ddd4e313096f5b1c166ab3832640e192d49318a4f ,
+                        0xf62b71be0bd298af31935e207d06dbd18c857b523fa797d1b952a5820c2e934e ,
+                        0xcf9cff32693ab2afda2c06e933ed8b260de7cc24860c18f345154f9a4932041a ,
+                        0x65fe25be62a6bd40fa2c89f9b8b837d5cd8c0ad93ff09558574bbe1ce534aa78 ,
+                        0xc0cc3b87b469caa235c5d366b2102a8cdabe641d4719814e15cf8a8f59b54e21 ,
+                        0xdda843b96bc5f3a102b61ebd31ff81156692144ea78eecf9763e7097e60a91e6 ,
+                        0xc4c7b370cb5417af392398bced2b1068d5f186b8deaa770669466de1352b7e08 ,
+                        0x5de0798f661dd97ac340ab097922920ce49b427accc87c1cdcabb97e417f4403 ,
+                        0xe7ab569c05815e53d213be616e3a81f4a2ddbeb981b5feb8ec0ae13e2bce8240 ,
+                        0x6f50be2b56ee21a78474d832f5fa97ad78d660c615c2acfba681de30fc4cccbe ,
+                        0xe3270df69dbdf64c51b8ce1540b602b34eee9d5e1bb20c9575455cfe99de45db ,
+                        0xa3eb28dceb2ec20b56371b02cd36fc457cd15c6781fc738cc4ebbe45c1797711 ,
+                        0x0eb788380002cdb6a4197acddc27877c478bcbe729b8e22ec257ad5e36049aa9 ,
+                        0x98656b553e7794340a5ea160da5d84d937c603cd944cbeb6287facd0789d690a ,
+                        0xa2edca2e7a36af999a49d716e58bc986d798a160c14903ab93155e331393ae2d ,
+                        0x3adff01e17fd14ee8ed96785d3ccc9646b8bf2e397b7ee4789dc32fbac087473 ,
+                        0xb3f5f44f3e6e3a9f0fa2446e9a7d5604bab9d97a6c2b1fe10df48ff06db3cf0a ,
+                        0xa7999b0cd552ec65fbd9c8ec23bc943b11986c48e3fcc2d94e64a90e63e05131 ,
+                        0xc9a05a7e3843e3fdcf0e6378f7cc178cfb403af9b44efea281f46f145c7717e1 ,
+                        0x0eab970d81662a32f64bbeb0209fd154ee3a051fb98b30eb622a08345330dbc9 ,
+                        0x06f98d16553fa6205ace3f6bf5b221d06c4b5695b29dad916fb657bde61405cf ,
+                        0xb98b30fb603ad06cc32c7bd76548233aadb6a1288c36d4b36e21067ac390695a ,
+                        0xf6f385d2585fd22c38b7c1ae3fa24da53d569c0581dea0ecec109274f694740b ,
+                        0xcedb543ae20a61bbf3c13508f40621c7cf3a3b0627ade89cf8112b9e35e00843 ,
+                        0xb4b19e6d3c18683565a76765a4158dffe0fc232fbaf0bd338047ad383902ad26 ,
+                        0xecfcb4963499cdf8386e58f11c7431da9d63f29ce55506a753c75ece0b4a93e9 ,
+                        0x5bb49db9d74ce6a08bbc0d1ebd07b7df4c9222d0a922878a7a39b12a5ddec0f7 ,
+                        0xf1708fe213112ae05b07be0247ff930f509d46157b39d606a4cb69dde8b58733 ,
+                        0x66b2102a64e3e45ec9b860f2816aa0e1f99ed8cbc14a20ede87025f766f1f392 ,
+                        0x328876e059dd78d64c92c0f9f7cc3a06ad83f479e9263a2f54bfaa2da3956274 ,
+                        0xd0fca2992441e01fb269f3b299f406c570b1145341eec94a33591c323c5eaa58 ,
+                        0xe66e33698dc0772f27503d14c3ee524c651e3793665085e8c4023feb2d66d20a ,
+                        0xce2ffff1de5f5e540c5bc4e8d19d3693e650a5ad62343be197f2a4990d0df960 ,
+                        0x3a063983dcc941c9c5a018786393dc7cbedc83ad66361854f158c951994be25d ,
+                        0xe102e4623945b91e33b3e12007555f03fa54ecfd97d316e460b94439b63f272e ,
+                        0x27fc77a20f22428ed8665b05ce0d62b71ca2dcc839cdeea41c6d10a34557483b ,
+                        0x36766faf13b3c51ee544ae0f579b53410e378bd12c05f2f58bb49f0ac90862b5 ,
+                        0x98a35cc871b399a6851c6f37814898eebfd3f7378601315aac510ee4b6dd4cf3 ,
+                        0x40020c6faa1e67c8eed8d3663e32504c6b2cb62866484ec30d570685846813a3 ,
+                        0x97f00a52c63ec2288cefe86589a52edeb46d5e1d24c83640d5a7420a721c8c47 ,
+                        0xa6f35515344d3b1a1c97490e59de486d04899f2a055345d6d5589c6c3d83a903 ,
+                        0x1a22a708a2b53ccf5356ad5f28103e17121d528ac8a0f57531d9cdc497f9fc44 ,
+                        0x8c343d89b5d3b73e1b41419d10ab7ae9880c25f8f80e60225f3b9ec4c66c0175 ,
+                        0xab86231189ed84b91a4d28c05522a3fb6821a22979fc8ac586824d1ec92a120b ,
+                        0x31adb230471f042b7e200ef28b4c4db489617c6e9c8782a737e49bcf3f885192 ,
+                        0x3988169abdeda96481125a2dd24eb2c2136da10e4b7ce113dfab4d6ee943c9f2 ,
+                        0x22333bff1cf2fc56e4a3878bb59d9461832d75a8dbe307b52726fe0760378b43 ,
+                        0x47f504d20000000049454e44ae426082
+                    End
+                    LayoutCachedLeft =4620
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =5400
+                    LayoutCachedHeight =1440
+                    TabIndex =5
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =4115
+                    Top =240
+                    Width =2210
+                    Height =480
+                    FontSize =16
+                    BorderColor =0
+                    ForeColor =5066061
+                    Name ="lblWelcomeVideo"
+                    Caption ="Welcome Video\015\012"
+                    FontName ="Segoe UI Semilight"
+                    GridlineColor =0
+                    LayoutCachedLeft =4115
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =6325
+                    LayoutCachedHeight =720
+                    ThemeFontIndex =-1
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BorderWidth =1
+                    OverlapFlags =85
+                    Left =6720
+                    Width =0
+                    Height =1440
+                    BorderColor =14869218
+                    Name ="Box1"
+                    GridlineColor =0
+                    LayoutCachedLeft =6720
+                    LayoutCachedWidth =6720
+                    LayoutCachedHeight =1440
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    GridlineThemeColorIndex =-1
+                    GridlineShade =100.0
+                End
+            End
+        End
+    End
+End

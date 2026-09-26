@@ -1,0 +1,20 @@
+﻿CREATE TABLE [Employees] (
+  [EmployeeID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [FirstName] VARCHAR (20),
+  [LastName] VARCHAR (30),
+  [EmailAddress] VARCHAR (255),
+  [JobTitle] VARCHAR (50),
+  [PrimaryPhone] VARCHAR (20),
+  [SecondaryPhone] VARCHAR (20),
+  [Title] VARCHAR (20) CONSTRAINT [New_New_SalutationsEmployees] REFERENCES [Titles] ([Title]),
+  [Notes] LONGTEXT,
+  [Attachments] VARCHAR,
+  [SupervisorID] LONG,
+  [WindowsUserName] VARCHAR (50) CONSTRAINT [WindowsUserName] UNIQUE,
+  [AddedBy] VARCHAR (255),
+  [AddedOn] DATETIME,
+  [ModifiedBy] VARCHAR (255),
+  [ModifiedOn] DATETIME,
+   CONSTRAINT ,
+   CONSTRAINT 
+)

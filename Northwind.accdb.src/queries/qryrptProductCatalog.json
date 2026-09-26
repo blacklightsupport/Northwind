@@ -1,0 +1,62 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryrptProductCatalog"
+  },
+  "Items": {
+    "QueryType": 262144,
+    "Columns": {
+      "ProductCategories.ProductCategoryImage.FileName": {
+        "ColumnWidth": 4830,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 264
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "ProductCategories",
+          "Alias": "",
+          "Left": 72,
+          "Top": 18,
+          "Right": 360,
+          "Bottom": 311,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 455,
+          "Top": 23,
+          "Right": 671,
+          "Bottom": 239,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryTotalSalesByProduct",
+          "Alias": "",
+          "Left": 740,
+          "Top": 24,
+          "Right": 956,
+          "Bottom": 240,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

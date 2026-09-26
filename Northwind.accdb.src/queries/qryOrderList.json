@@ -1,0 +1,93 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryOrderList"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Orders.OrderDate": {
+        "ColumnWidth": 3780,
+        "AggregateType": -1
+      },
+      "qryOrderList_DetailStatus.OrderDetailStatusName": {
+        "ColumnWidth": 3180,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 162
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "OrderStatus",
+          "Alias": "",
+          "Left": 498,
+          "Top": 164,
+          "Right": 722,
+          "Bottom": 308,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qrycboEmployees",
+          "Alias": "",
+          "Left": 493,
+          "Top": -3,
+          "Right": 695,
+          "Bottom": 135,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryCustomers",
+          "Alias": "",
+          "Left": 13,
+          "Top": 171,
+          "Right": 157,
+          "Bottom": 315,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 249,
+          "Top": 21,
+          "Right": 393,
+          "Bottom": 252,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryOrderTotal",
+          "Alias": "",
+          "Left": 5,
+          "Top": 5,
+          "Right": 179,
+          "Bottom": 137,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryOrderList_DetailStatus",
+          "Alias": "",
+          "Left": 753,
+          "Top": 12,
+          "Right": 1002,
+          "Bottom": 156,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

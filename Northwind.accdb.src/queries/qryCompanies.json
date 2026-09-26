@@ -1,0 +1,60 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryCompanies"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "BusinessAddress": {
+        "ColumnWidth": 3600,
+        "AggregateType": -1
+      },
+      "Companies.BusinessPhone": {
+        "ColumnWidth": 3555,
+        "AggregateType": -1
+      },
+      "Companies.CompanyName": {
+        "ColumnWidth": 4275,
+        "AggregateType": -1
+      },
+      "Companies.ModifiedBy": {
+        "ColumnWidth": 3045,
+        "AggregateType": -1
+      },
+      "Companies.ModifiedOn": {
+        "ColumnWidth": 2955,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 231
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Companies",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 299,
+          "Bottom": 279,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

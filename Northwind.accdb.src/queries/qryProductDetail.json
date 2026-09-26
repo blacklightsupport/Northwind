@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryProductDetail"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Products.AddedOn": {
+        "ColumnWidth": 1875,
+        "Format": {
+          "Type": "dbText",
+          "Value": "m/d/yyyy h:nn ampm"
+        },
+        "AggregateType": -1
+      },
+      "Products.ModifiedOn": {
+        "ColumnWidth": 2250,
+        "Format": {
+          "Type": "dbText",
+          "Value": "m/d/yyyy h:nn ampm"
+        },
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 95
+      },
+      "GridLeft": 96,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 25,
+          "Top": -76,
+          "Right": 271,
+          "Bottom": 159,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

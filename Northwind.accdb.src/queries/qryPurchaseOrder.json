@@ -1,0 +1,65 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryPurchaseOrder"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 195
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "PurchaseOrders",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 301,
+          "Bottom": 283,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrderStatus",
+          "Alias": "",
+          "Left": 373,
+          "Top": 18,
+          "Right": 589,
+          "Bottom": 234,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryEmployees",
+          "Alias": "",
+          "Left": 661,
+          "Top": 18,
+          "Right": 877,
+          "Bottom": 234,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryEmployees_1",
+          "Alias": "",
+          "Left": 956,
+          "Top": 98,
+          "Right": 1172,
+          "Bottom": 314,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

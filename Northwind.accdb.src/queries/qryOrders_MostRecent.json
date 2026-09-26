@@ -1,0 +1,10 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryOrders_MostRecent"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 16
+  }
+}

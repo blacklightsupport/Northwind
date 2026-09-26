@@ -1,0 +1,75 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryrptSalesByProduct_ByMonth"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "MonthYear": {
+        "ColumnOrder": 5,
+        "AggregateType": -1
+      },
+      "MonthYearSort": {
+        "ColumnOrder": 6,
+        "AggregateType": -1
+      },
+      "OrderTotal": {
+        "ColumnOrder": 3,
+        "ColumnWidth": 3612,
+        "AggregateType": -1
+      },
+      "Products.ProductName": {
+        "ColumnOrder": 2,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1178,
+        "bottom": 1019
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1153,
+        "bottom": 338
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 72,
+          "Top": 18,
+          "Right": 288,
+          "Bottom": 234,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 360,
+          "Top": 18,
+          "Right": 576,
+          "Bottom": 234,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "OrderDetails",
+          "Alias": "",
+          "Left": 648,
+          "Top": 18,
+          "Right": 864,
+          "Bottom": 234,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryPurchaseOrderList"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 157
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "qrycboVendors",
+          "Alias": "",
+          "Left": 107,
+          "Top": 30,
+          "Right": 251,
+          "Bottom": 174,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrderStatus",
+          "Alias": "",
+          "Left": 543,
+          "Top": 133,
+          "Right": 687,
+          "Bottom": 277,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrders",
+          "Alias": "",
+          "Left": 346,
+          "Top": 23,
+          "Right": 518,
+          "Bottom": 254,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryPurchaseOrderCost",
+          "Alias": "",
+          "Left": 745,
+          "Top": 12,
+          "Right": 889,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qrycboEmployees-Submitted",
+          "Alias": "",
+          "Left": 2,
+          "Top": 114,
+          "Right": 146,
+          "Bottom": 258,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qrycboEmployees-Approved",
+          "Alias": "",
+          "Left": 158,
+          "Top": 191,
+          "Right": 302,
+          "Bottom": 335,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

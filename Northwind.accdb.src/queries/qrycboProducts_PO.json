@@ -1,0 +1,47 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qrycboProducts_PO"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 92
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 247,
+          "Bottom": 173,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "ProductVendors",
+          "Alias": "",
+          "Left": 353,
+          "Top": 7,
+          "Right": 497,
+          "Bottom": 151,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

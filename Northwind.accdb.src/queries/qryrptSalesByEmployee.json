@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryrptSalesByEmployee"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1606,
+        "bottom": 1019
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1153,
+        "bottom": 452
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "Employees",
+          "Alias": "",
+          "Left": 926,
+          "Top": 101,
+          "Right": 1142,
+          "Bottom": 317,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryOrderTotal",
+          "Alias": "",
+          "Left": 269,
+          "Top": 98,
+          "Right": 485,
+          "Bottom": 314,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 569,
+          "Top": 119,
+          "Right": 785,
+          "Bottom": 335,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

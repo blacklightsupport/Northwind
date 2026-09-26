@@ -1,0 +1,50 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryEmployees"
+  },
+  "Items": {
+    "QueryType": 262144,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      }
+    },
+    "Columns": {
+      "FullNameFNLN": {
+        "ColumnWidth": 1430,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 188
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Employees",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 327,
+          "Bottom": 326,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryOrder"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 101
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 272,
+          "Bottom": 248,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "OrderStatus",
+          "Alias": "",
+          "Left": 344,
+          "Top": 18,
+          "Right": 560,
+          "Bottom": 234,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

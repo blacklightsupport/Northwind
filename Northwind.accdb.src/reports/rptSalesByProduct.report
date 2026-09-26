@@ -1,0 +1,479 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =11460
+    DatasheetFontHeight =11
+    ItemSuffix =23
+    OnNoData ="[Event Procedure]"
+    RecSrcDt = Begin
+        0xce08e6613111e640
+    End
+    RecordSource ="qryrptSalesByProduct_ByMonth"
+    Caption ="Monthly Orders By Product"
+    OnOpen ="[Event Procedure]"
+    OnClose ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    OnActivate ="[Event Procedure]"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ModernChart
+            OldBorderStyle =0
+            BorderLineStyle =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackThemeColorIndex =1
+            ChartTitle ="Chart Title"
+            ChartTitleFontName ="Calibri"
+            ThemeFontIndex =1
+            ChartSubtitle ="Subtitle"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="MonthYearSort"
+        End
+        Begin BreakLevel
+            ControlSource ="ProductName"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =7560
+            Name ="ReportHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin ModernChart
+                    Top =1440
+                    Width =11459
+                    Height =5760
+                    Name ="chrtSalesByProduct"
+                    RowSource ="qryrptSalesByProduct_ByMonth"
+                    ChartAxis ="[ProductName]"
+                    ChartValues ="[OrderTotal]"
+                    ChartType =9
+                    ChartTitle ="Total Orders in Report"
+                    ChartAxisData = Begin
+                        0x01000000220000000d0000005b00500072006f0064007500630074004e006100 ,
+                        0x6d0065005d0000000000
+                    End
+                    ChartLegendData = Begin
+                        0x01000000960000000f000000530075006d004f0066004f007200640065007200 ,
+                        0x54006f00740061006c0000000000005b9bd5005b9bd500000000000000000000 ,
+                        0x000000000000009f6f00000f000000530075006d004f0066004f007200640065 ,
+                        0x00720054006f00740061006c000100000000000000a07e000000000000000000 ,
+                        0x000000df3f85000000000000000000000000000000000000000000000000
+                    End
+                    ChartValueData = Begin
+                        0x01000000200000000c0000005b004f00720064006500720054006f0074006100 ,
+                        0x6c005d0001000000
+                    End
+                    PrimaryValuesAxisFormat ="£#,##0.00;-£#,##0.00"
+                    PrimaryValuesAxisFontColor =8355711
+                    SecondaryValuesAxisFontColor =8355711
+                    CategoryAxisFontColor =8355711
+                    ChartTitleFontColor =8355711
+                    ChartTitleFontSize =14
+                    LegendTextFontColor =8355711
+                    ChartSubtitleFontColor =8355711
+                End
+                Begin Rectangle
+                    OldBorderStyle =0
+                    Width =1440
+                    Height =1440
+                    Name ="boxLogo"
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =1440
+                End
+                Begin Label
+                    BackStyle =1
+                    Left =1500
+                    Width =7660
+                    Height =520
+                    FontSize =20
+                    Name ="Label15"
+                    Caption ="Northwind Traders Monthly Orders By Product"
+                    LayoutCachedLeft =1500
+                    LayoutCachedWidth =9160
+                    LayoutCachedHeight =520
+                    BackThemeColorIndex =2
+                    BackTint =20.0
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =1500
+                    Top =720
+                    Width =7540
+                    Height =720
+                    Name ="lblCriteria"
+                    Caption ="TODO: Criteria.4583"
+                    Tag ="DetachedLabel"
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =720
+                    LayoutCachedWidth =9040
+                    LayoutCachedHeight =1440
+                    BackThemeColorIndex =2
+                    BackTint =20.0
+                End
+                Begin Image
+                    BackStyle =0
+                    PictureType =2
+                    Left =72
+                    Top =72
+                    Width =1260
+                    Height =1260
+                    Name ="imgLogo"
+                    Picture ="NW2Logo64"
+
+                    LayoutCachedLeft =72
+                    LayoutCachedTop =72
+                    LayoutCachedWidth =1332
+                    LayoutCachedHeight =1332
+                    TabIndex =1
+                End
+                Begin Label
+                    Left =2220
+                    Top =3900
+                    Width =6330
+                    Height =300
+                    Name ="Label22"
+                    Caption ="Please note: Modern Chart is only available with Access 2019 and up."
+                    LayoutCachedLeft =2220
+                    LayoutCachedTop =3900
+                    LayoutCachedWidth =8550
+                    LayoutCachedHeight =4200
+                End
+            End
+        End
+        Begin PageHeader
+            Height =360
+            Name ="PageHeaderSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    TextAlign =1
+                    Left =1860
+                    Top =60
+                    Width =1320
+                    Height =300
+                    Name ="FullNameFNLN_Label"
+                    Caption ="Product"
+                    Tag ="DetachedLabel"
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =1860
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3180
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =8040
+                    Top =60
+                    Width =1680
+                    Height =300
+                    Name ="SumOfOrderTotal_Label"
+                    Caption ="Orders Total"
+                    Tag ="DetachedLabel"
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =8040
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =9720
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    TextAlign =1
+                    Left =60
+                    Top =60
+                    Width =1680
+                    Height =300
+                    Name ="MonthYear_Label"
+                    Caption ="Month"
+                    Tag ="DetachedLabel"
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1740
+                    LayoutCachedHeight =360
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =300
+            BackColor =-2147483607
+            Name ="GroupHeader0"
+            AlternateBackColor =-2147483607
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Width =1680
+                    Height =300
+                    Name ="MonthYear"
+                    ControlSource ="MonthYear"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                    LayoutCachedWidth =1680
+                    LayoutCachedHeight =300
+                    CurrencySymbol ="$"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =310
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =95.0
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =1860
+                    Width =4500
+                    Height =300
+                    ColumnWidth =1905
+                    Name ="FullNameFNLN"
+                    ControlSource ="ProductName"
+                    Format ="$#,##0.00;($#,##0.00)"
+                    StatusBarText ="Formatted as FirstName <space> LastName"
+
+                    LayoutCachedLeft =1860
+                    LayoutCachedWidth =6360
+                    LayoutCachedHeight =300
+                    CurrencySymbol ="$"
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OldBorderStyle =0
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =8220
+                    Width =1500
+                    Height =300
+                    TabIndex =1
+                    Name ="OrderTotal"
+                    ControlSource ="OrderTotal"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =8220
+                    LayoutCachedWidth =9720
+                    LayoutCachedHeight =300
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =480
+            Name ="GroupFooter1"
+            AlternateBackThemeColorIndex =1
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    DecimalPlaces =0
+                    OldBorderStyle =0
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =8220
+                    Top =60
+                    Width =1500
+                    Height =300
+                    FontWeight =700
+                    Name ="SumOfOrderTotal"
+                    ControlSource ="=Sum([OrderTotal])"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =8220
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =9720
+                    LayoutCachedHeight =360
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Top =60
+                    Width =2880
+                    Height =300
+                    TabIndex =1
+                    Name ="Text20"
+                    ControlSource ="=\"Total Orders for  \" & [MonthYear]"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =2880
+                    LayoutCachedHeight =360
+                    CurrencySymbol ="$"
+                End
+            End
+        End
+        Begin PageFooter
+            Height =550
+            Name ="PageFooterSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =60
+                    Top =240
+                    Width =5040
+                    Height =300
+                    Name ="Text16"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =5100
+                    LayoutCachedHeight =540
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =6420
+                    Top =240
+                    Width =5040
+                    Height =300
+                    TabIndex =1
+                    Name ="Text17"
+                    ControlSource ="=\"Page \" & [Page] & \" of \" & [Pages]"
+
+                    LayoutCachedLeft =6420
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =11460
+                    LayoutCachedHeight =540
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =420
+            Name ="ReportFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    DecimalPlaces =0
+                    OldBorderStyle =0
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =8220
+                    Width =1500
+                    Height =300
+                    FontWeight =700
+                    Name ="GrandTotalSum"
+                    ControlSource ="=Sum([OrderTotal])"
+                    Format ="£#,##0.00;-£#,##0.00"
+
+                    LayoutCachedLeft =8220
+                    LayoutCachedWidth =9720
+                    LayoutCachedHeight =300
+                End
+                Begin Label
+                    Left =60
+                    Width =1140
+                    Height =300
+                    Name ="Label13"
+                    Caption ="Grand Total"
+                    LayoutCachedLeft =60
+                    LayoutCachedWidth =1200
+                    LayoutCachedHeight =300
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "rptSalesByProduct.cls"

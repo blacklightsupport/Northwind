@@ -1,0 +1,52 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryrptEmployeeEmailList"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Employees.EmailAddress": {
+        "ColumnWidth": 3830,
+        "AggregateType": -1
+      },
+      "Employees.EmployeeID": {
+        "ColumnWidth": 1730,
+        "AggregateType": -1
+      },
+      "Employees.FullNameFNLN": {
+        "ColumnWidth": 2480,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 747
+      },
+      "GridLeft": 144,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Employees",
+          "Alias": "",
+          "Left": 72,
+          "Top": -126,
+          "Right": 288,
+          "Bottom": 355,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

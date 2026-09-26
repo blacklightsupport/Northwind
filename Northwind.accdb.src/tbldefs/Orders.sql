@@ -1,0 +1,20 @@
+﻿CREATE TABLE [Orders] (
+  [OrderID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [EmployeeID] LONG CONSTRAINT [New_New_EmployeesOrders] REFERENCES [Employees] ([EmployeeID]),
+  [CustomerID] LONG,
+  [OrderDate] DATETIME,
+  [InvoiceDate] DATETIME,
+  [ShippedDate] DATETIME,
+  [ShipperID] LONG,
+  [ShippingFee] CURRENCY,
+  [TaxRate] SINGLE,
+  [TaxStatusID] BYTE CONSTRAINT [New_New_TaxStatusOrders] REFERENCES [TaxStatus] ([TaxStatusID]),
+  [PaymentMethod] VARCHAR (50),
+  [PaidDate] DATETIME,
+  [Notes] LONGTEXT,
+  [OrderStatusID] LONG CONSTRAINT [New_New_OrdersStatusOrders] REFERENCES [OrderStatus] ([OrderStatusID]),
+  [AddedBy] VARCHAR (255),
+  [AddedOn] DATETIME,
+  [ModifiedBy] VARCHAR (255),
+  [ModifiedOn] DATETIME
+)

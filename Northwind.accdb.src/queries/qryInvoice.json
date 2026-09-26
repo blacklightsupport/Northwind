@@ -1,0 +1,74 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryInvoice"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 135
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 781,
+          "Top": 19,
+          "Right": 925,
+          "Bottom": 167,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryEmployees",
+          "Alias": "",
+          "Left": 1006,
+          "Top": 35,
+          "Right": 1150,
+          "Bottom": 179,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryCustomers",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Orders",
+          "Alias": "",
+          "Left": 220,
+          "Top": 23,
+          "Right": 441,
+          "Bottom": 248,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "OrderDetails",
+          "Alias": "",
+          "Left": 477,
+          "Top": 15,
+          "Right": 691,
+          "Bottom": 223,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

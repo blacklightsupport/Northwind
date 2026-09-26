@@ -1,0 +1,1704 @@
+﻿{
+  "Info": {
+    "Class": "clsDbNavPaneGroup",
+    "Description": "Navigation Pane Custom Groups"
+  },
+  "Items": {
+    "Categories": [
+      {
+        "Name": "Custom",
+        "Flags": 0,
+        "Position": 2,
+        "Groups": [
+          {
+            "Name": "Custom Group 1",
+            "Flags": 0,
+            "Position": 1,
+            "Objects": [
+            ]
+          },
+          {
+            "Name": "Unassigned Objects",
+            "Flags": 6,
+            "Position": 2,
+            "Objects": [
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "My Work",
+        "Flags": 0,
+        "Position": 4,
+        "Groups": [
+          {
+            "Name": "Completed",
+            "Flags": 2,
+            "Position": 0,
+            "Objects": [
+            ]
+          },
+          {
+            "Name": "Tables",
+            "Flags": 2,
+            "Position": 2,
+            "Objects": [
+              {
+                "Name": "Companies",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "CompanyTypes",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "Contacts",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 20
+              },
+              {
+                "Name": "EmployeePrivileges",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "Employees",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "MRU",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "OrderDetails",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "OrderDetailStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "Orders",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "OrderStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "Privileges",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "Products",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "ProductVendors",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "PurchaseOrderDetails",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "PurchaseOrders",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "PurchaseOrderStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "States",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 23
+              },
+              {
+                "Name": "StockTake",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "Strings",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 21
+              },
+              {
+                "Name": "SystemSettings",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "TaxStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 18
+              },
+              {
+                "Name": "Titles",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 19
+              },
+              {
+                "Name": "Welcome",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 22
+              }
+            ]
+          },
+          {
+            "Name": "Unassigned Objects",
+            "Flags": 6,
+            "Position": 3,
+            "Objects": [
+            ]
+          },
+          {
+            "Name": "WIP",
+            "Flags": 0,
+            "Position": 1,
+            "Objects": [
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Northwind Traders 2.5",
+        "Flags": 0,
+        "Position": 3,
+        "Groups": [
+          {
+            "Name": "Admin",
+            "Flags": 2,
+            "Position": 1,
+            "Objects": [
+              {
+                "Name": "frmAbout",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "frmAdmin",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "frmLearn",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "sfrmAdmin_DeleteTestData",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "sfrmAdmin_InternetOrders",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "sfrmAdmin_ResetDates",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "sfrmAdmin_Strings",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "sfrmAdmin_SystemSettings",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "rptRelationshipsWindow",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              }
+            ]
+          },
+          {
+            "Name": "Company",
+            "Flags": 2,
+            "Position": 2,
+            "Objects": [
+              {
+                "Name": "frmCompanyDetail",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "frmCompanyList",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "sfrmCompanyDetail_Contacts",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "sfrmCompanyDetail_CustomerOrders",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "sfrmCompanyDetail_ShipperOrders",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "sfrmCompanyDetail_VendorPurchaseOrders",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "Companies",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "CompanyTypes",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "Contacts",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "TaxStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              }
+            ]
+          },
+          {
+            "Name": "Employee",
+            "Flags": 2,
+            "Position": 3,
+            "Objects": [
+              {
+                "Name": "frmEmployeeList",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "frmEmployeeTitles",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "sfrmEmployee_Privileges",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "EmployeePrivileges",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "Employees",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "Privileges",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "Titles",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              }
+            ]
+          },
+          {
+            "Name": "Generic Objects",
+            "Flags": 2,
+            "Position": 9,
+            "Objects": [
+              {
+                "Name": "_Design",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "frmGenericDialog",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "_Design",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              }
+            ]
+          },
+          {
+            "Name": "Inventory",
+            "Flags": 2,
+            "Position": 4,
+            "Objects": [
+              {
+                "Name": "sfrmProductDetail_StockTake",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "modInventory",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "StockTake",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              }
+            ]
+          },
+          {
+            "Name": "Northwind Features",
+            "Flags": 2,
+            "Position": 5,
+            "Objects": [
+              {
+                "Name": "frmNorthwindFeatures",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "rptLearn",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "NorthwindFeatures",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "Orders",
+            "Flags": 2,
+            "Position": 6,
+            "Objects": [
+              {
+                "Name": "frmOrderDetails",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "frmOrderList",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "sfrmOrderLineItems",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "rptInvoice",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 18
+              },
+              {
+                "Name": "modOrders",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "OrderDetails",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "OrderDetailStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "Orders",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "OrderStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "qryOrder",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "qryOrderLineItems",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "qryOrderList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "qryOrderList_DetailStatus",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "qryOrderList_DetailStatus_Lowest",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "qryOrders_MostRecent",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "qryOrders_MostRecent_Customer",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "qryOrders_MostRecent_Employee",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "qryOrders_MostRecent_ModifiedOn",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "qryOrderTotal",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              }
+            ]
+          },
+          {
+            "Name": "Products",
+            "Flags": 2,
+            "Position": 7,
+            "Objects": [
+              {
+                "Name": "frmProductDetail",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "frmProductList",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "frmSelectVendorDialog",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "sfrmOrders_MostRecent_ByEmployee",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "sfrmProductCategories",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "sfrmProductDetail_Orders",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "sfrmProductDetail_PurchaseOrders",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "sfrmProductDetail_StockTake",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "sfrmProductDetail_Vendors",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "modInventory",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "ProductCategories",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "Products",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "ProductVendors",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "StockTake",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "qryPOProducts_ByStatus",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "qryProductList_Export",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              }
+            ]
+          },
+          {
+            "Name": "Purchase Orders",
+            "Flags": 2,
+            "Position": 8,
+            "Objects": [
+              {
+                "Name": "frmPurchaseOrderDetails",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "frmPurchaseOrderList",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "sfrmPurchaseOrderLineItems",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "PurchaseOrderDetails",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "PurchaseOrders",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "PurchaseOrderStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              }
+            ]
+          },
+          {
+            "Name": "Queries",
+            "Flags": 2,
+            "Position": 11,
+            "Objects": [
+              {
+                "Name": "qrycboCompanyType",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "qrycboCustomers",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "qrycboEmployees",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "qrycboOrderDetailStatus",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "qrycboOrderStatus",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "qrycboProductCategories",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 45
+              },
+              {
+                "Name": "qrycboProductCategory",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "qrycboProducts",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "qrycboProducts_All",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "qrycboProducts_PO",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "qrycboShippers",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "qrycboStates",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "qrycboTaxStatus",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "qrycboVendors",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "qryCompanies",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "qryCompanyList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "qryContacts",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "qryCustomerOrderList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "qryCustomers",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "qryEmployeeLogin",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 18
+              },
+              {
+                "Name": "qryEmployeePrivileges",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 19
+              },
+              {
+                "Name": "qryEmployees",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 20
+              },
+              {
+                "Name": "qryEmployeeSupervisor",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 21
+              },
+              {
+                "Name": "qryInvoice",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 22
+              },
+              {
+                "Name": "qryMaxStockTakeDate",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 23
+              },
+              {
+                "Name": "qryMRU",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 24
+              },
+              {
+                "Name": "qryPrivileges",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 25
+              },
+              {
+                "Name": "qryProductCategories",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 48
+              },
+              {
+                "Name": "qryProductDetail",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 26
+              },
+              {
+                "Name": "qryProductList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 27
+              },
+              {
+                "Name": "qryProductOrders",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 28
+              },
+              {
+                "Name": "qryProductPurchaseOrder",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 29
+              },
+              {
+                "Name": "qryProductVendors",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 30
+              },
+              {
+                "Name": "qryPurchaseOrder",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 31
+              },
+              {
+                "Name": "qryPurchaseOrderCost",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 32
+              },
+              {
+                "Name": "qryPurchaseOrderLineItems",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 33
+              },
+              {
+                "Name": "qryPurchaseOrderList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 34
+              },
+              {
+                "Name": "qryrptEmployeeEmailList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 35
+              },
+              {
+                "Name": "qryrptEmployeePhoneList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 36
+              },
+              {
+                "Name": "qryrptProductCatalog",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 47
+              },
+              {
+                "Name": "qryShipperOrderList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 37
+              },
+              {
+                "Name": "qryShippers",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 38
+              },
+              {
+                "Name": "qryStockTake",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 39
+              },
+              {
+                "Name": "qryStrings",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 40
+              },
+              {
+                "Name": "qrySystemSettings",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 41
+              },
+              {
+                "Name": "qryTitle",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 42
+              },
+              {
+                "Name": "qryTotalSalesByProduct",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 46
+              },
+              {
+                "Name": "qryVendorPurchaseOrderList",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 43
+              },
+              {
+                "Name": "qryVendors",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 44
+              }
+            ]
+          },
+          {
+            "Name": "Reports",
+            "Flags": 2,
+            "Position": 10,
+            "Objects": [
+              {
+                "Name": "frmReports",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "rptEmployeeEmailList",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "rptEmployeePhoneList",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "rptInvoice",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "rptProductCatalog",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "rptSalesByEmployee",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "rptSalesByProduct",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "rptSalesByProductQuarterly",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "srptCatalog_TableOfContents",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "srptGastronomic",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "srptOrderForm",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "srptQuality",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "srptShipVia",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "modReportParameters",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "qryrptSalesByEmployee",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "qryrptSalesByProduct_ByMonth",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "qryrptSalesByProduct_ByQuarter",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "qrySales_SalesRep",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              }
+            ]
+          },
+          {
+            "Name": "Startup",
+            "Flags": 2,
+            "Position": 12,
+            "Objects": [
+              {
+                "Name": "frmCredentials",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "frmLogin",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "frmStartup",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "frmWelcome",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "AutoExec",
+                "Type": -32766,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "modStartup",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              }
+            ]
+          },
+          {
+            "Name": "Tables - Back End",
+            "Flags": 2,
+            "Position": 13,
+            "Objects": [
+              {
+                "Name": "Catalog_TableOfContents",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 22
+              },
+              {
+                "Name": "Companies",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 19
+              },
+              {
+                "Name": "CompanyTypes",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "Contacts",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "EmployeePrivileges",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "Employees",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "Learn",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 26
+              },
+              {
+                "Name": "MRU",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "NorthwindFeatures",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 21
+              },
+              {
+                "Name": "OrderDetails",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 25
+              },
+              {
+                "Name": "OrderDetailStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "Orders",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 24
+              },
+              {
+                "Name": "OrderStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "Privileges",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "ProductCategories",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 23
+              },
+              {
+                "Name": "Products",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "ProductVendors",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "PurchaseOrderDetails",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "PurchaseOrders",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "PurchaseOrderStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "States",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "StockTake",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "Strings",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "SystemSettings",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "TaxStatus",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "Titles",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 18
+              },
+              {
+                "Name": "USysRibbons",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 27
+              },
+              {
+                "Name": "Welcome",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 20
+              }
+            ]
+          },
+          {
+            "Name": "Tables - Front End",
+            "Flags": 2,
+            "Position": 14,
+            "Objects": [
+              {
+                "Name": "UserSettings",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "Unassigned Objects",
+            "Flags": 6,
+            "Position": 16,
+            "Objects": [
+            ]
+          },
+          {
+            "Name": "VBA",
+            "Flags": 2,
+            "Position": 15,
+            "Objects": [
+              {
+                "Name": "clsErrorHandler",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "modCompanies",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "modDAO",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "modDebug",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "modFiles",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "modForms",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "modGlobal",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "modInventory",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "modMath",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "modPurchaseOrders",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "modRibbonCallback",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "modSecurity",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "modStartup",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "modStrings",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "modTableDataMacros",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "modValidation",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

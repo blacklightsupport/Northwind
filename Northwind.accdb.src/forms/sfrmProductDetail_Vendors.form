@@ -1,0 +1,474 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    ViewsAllowed =2
+    RecordLocks =2
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =9545
+    DatasheetFontHeight =11
+    ItemSuffix =136
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x44d9d174cbe7e540
+    End
+    RecordSource ="qryProductVendors"
+    BeforeUpdate ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    AllowFormView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =-2147483611
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+        End
+        Begin Section
+            Height =720
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin ComboBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1360
+                    Top =340
+                    Width =4070
+                    Height =360
+                    ColumnWidth =4365
+                    ColumnOrder =1
+                    Name ="cboVendorID"
+                    ControlSource ="VendorID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="qrycboVendors"
+                    ColumnWidths ="0;3780"
+                    StatusBarText ="Vendors.VendorID"
+                    GroupTable =4
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    LayoutCachedLeft =1360
+                    LayoutCachedTop =340
+                    LayoutCachedWidth =5430
+                    LayoutCachedHeight =700
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    GroupTable =4
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Top =340
+                            Width =1350
+                            Height =360
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =0
+                            Name ="lblVendor"
+                            Caption ="Vendor"
+                            GroupTable =4
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedTop =340
+                            LayoutCachedWidth =1350
+                            LayoutCachedHeight =700
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =2
+                            ForeTint =100.0
+                            GroupTable =4
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    FontUnderline = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1360
+                    Width =4070
+                    Height =330
+                    ColumnWidth =1305
+                    ColumnOrder =0
+                    TabIndex =1
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtVendorID"
+                    ControlSource ="VendorID"
+                    StatusBarText ="Vendors.VendorID"
+                    OnClick ="[Event Procedure]"
+                    GroupTable =4
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+                    LayoutCachedLeft =1360
+                    LayoutCachedWidth =5430
+                    LayoutCachedHeight =330
+                    DisplayAsHyperlink =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    GroupTable =4
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Width =1350
+                            Height =330
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            ForeColor =0
+                            Name ="lblVendorID"
+                            Caption ="Vendor ID"
+                            GroupTable =4
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedWidth =1350
+                            LayoutCachedHeight =330
+                            LayoutGroup =2
+                            ForeTint =100.0
+                            GroupTable =4
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =510
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1850
+                    Top =50
+                    Width =1080
+                    Height =360
+                    TabIndex =1
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    BackColor =62207
+                    Name ="ProductID"
+                    ControlSource ="ProductID"
+                    StatusBarText ="Products.ProductID"
+                    GroupTable =2
+                    LayoutCachedLeft =1850
+                    LayoutCachedTop =50
+                    LayoutCachedWidth =2930
+                    LayoutCachedHeight =410
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    BackThemeColorIndex =-1
+                    GroupTable =2
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =50
+                    Top =50
+                    Width =1730
+                    Height =360
+                    ColumnWidth =2025
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    BackColor =62207
+                    Name ="ProductVendorID"
+                    ControlSource ="ProductVendorID"
+                    GroupTable =2
+                    LayoutCachedLeft =50
+                    LayoutCachedTop =50
+                    LayoutCachedWidth =1780
+                    LayoutCachedHeight =410
+                    LayoutGroup =1
+                    BackThemeColorIndex =-1
+                    GroupTable =2
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =3000
+                    Top =50
+                    Width =1620
+                    Height =360
+                    TabIndex =2
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    BackColor =62207
+                    Name ="txtAddedBy"
+                    ControlSource ="AddedBy"
+                    GroupTable =2
+                    LayoutCachedLeft =3000
+                    LayoutCachedTop =50
+                    LayoutCachedWidth =4620
+                    LayoutCachedHeight =410
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    BackThemeColorIndex =-1
+                    GroupTable =2
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4690
+                    Top =50
+                    Width =1680
+                    Height =360
+                    TabIndex =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    BackColor =62207
+                    Name ="txtAddedOn"
+                    ControlSource ="AddedOn"
+                    Format ="m/d/yyyy h:nn ampm"
+                    GroupTable =2
+                    LayoutCachedLeft =4690
+                    LayoutCachedTop =50
+                    LayoutCachedWidth =6370
+                    LayoutCachedHeight =410
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    BackThemeColorIndex =-1
+                    GroupTable =2
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6440
+                    Top =50
+                    Width =1620
+                    Height =360
+                    TabIndex =4
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    BackColor =62207
+                    Name ="txtModifiedBy"
+                    ControlSource ="ModifiedBy"
+                    GroupTable =2
+                    LayoutCachedLeft =6440
+                    LayoutCachedTop =50
+                    LayoutCachedWidth =8060
+                    LayoutCachedHeight =410
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    BackThemeColorIndex =-1
+                    GroupTable =2
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =8130
+                    Top =50
+                    Width =1380
+                    Height =360
+                    TabIndex =5
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    BackColor =62207
+                    Name ="txtModifiedOn"
+                    ControlSource ="ModifiedOn"
+                    InputMask ="\\m/\\d/\"yyyy h\":\"nn \"a\"mpm\""
+                    GroupTable =2
+                    LayoutCachedLeft =8130
+                    LayoutCachedTop =50
+                    LayoutCachedWidth =9510
+                    LayoutCachedHeight =410
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    BackThemeColorIndex =-1
+                    GroupTable =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "sfrmProductDetail_Vendors.cls"

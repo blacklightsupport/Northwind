@@ -1,0 +1,86 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryVendorPurchaseOrderList"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Customer"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 339
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "PurchaseOrders",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 356,
+          "Bottom": 359,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SumbittedBy",
+          "Alias": "",
+          "Left": 715,
+          "Top": 18,
+          "Right": 859,
+          "Bottom": 162,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "ApprovedBy",
+          "Alias": "",
+          "Left": 621,
+          "Top": 171,
+          "Right": 765,
+          "Bottom": 315,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrderStatus",
+          "Alias": "",
+          "Left": 635,
+          "Top": 306,
+          "Right": 779,
+          "Bottom": 450,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "qryPurchaseOrderCost",
+          "Alias": "",
+          "Left": 848,
+          "Top": 176,
+          "Right": 1136,
+          "Bottom": 320,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Customer"
+      }
+    }
+  }
+}

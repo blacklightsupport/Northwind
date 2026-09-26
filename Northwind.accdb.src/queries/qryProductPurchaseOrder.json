@@ -1,0 +1,88 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryProductPurchaseOrder"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "ExtendedCost": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "PurchaseOrderDetails.PurchaseOrderID": {
+        "ColumnWidth": 1995,
+        "AggregateType": -1
+      },
+      "PurchaseOrders.SubmittedDate": {
+        "ColumnWidth": 1830,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 74
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Companies",
+          "Alias": "",
+          "Left": 866,
+          "Top": -12,
+          "Right": 1010,
+          "Bottom": 132,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrderStatus",
+          "Alias": "",
+          "Left": 757,
+          "Top": 124,
+          "Right": 901,
+          "Bottom": 268,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrders",
+          "Alias": "",
+          "Left": 490,
+          "Top": 37,
+          "Right": 677,
+          "Bottom": 255,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 49,
+          "Top": 12,
+          "Right": 245,
+          "Bottom": 238,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "PurchaseOrderDetails",
+          "Alias": "",
+          "Left": 299,
+          "Top": 20,
+          "Right": 499,
+          "Bottom": 257,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

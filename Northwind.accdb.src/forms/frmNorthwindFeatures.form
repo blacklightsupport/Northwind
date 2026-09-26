@@ -1,0 +1,483 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoResize = NotDefault
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    OrderByOn = NotDefault
+    AllowEdits = NotDefault
+    DefaultView =5
+    ViewsAllowed =2
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =18300
+    RowHeight =930
+    DatasheetFontHeight =11
+    ItemSuffix =168
+    Right =50000
+    Bottom =50000
+    OrderBy ="[NorthwindFeatures].[ItemName]"
+    RecSrcDt = Begin
+        0xb9ee98756ee7e540
+    End
+    RecordSource ="NorthwindFeatures"
+    Caption ="Northwind Features"
+    DatasheetFontName ="Calibri"
+    AllowFormView =0
+    FilterOnLoad =0
+    SplitFormOrientation =1
+    SplitFormDatasheet =1
+    SplitFormSplitterBar =0
+    SplitFormSize =1440
+    SplitFormOrientation =1
+    SplitFormDatasheet =1
+    SplitFormSplitterBar =0
+    SplitFormSize =1440
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    AllowLayoutView =0
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin FormHeader
+            Height =1320
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =45.0
+            Begin
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Top =840
+                    Width =18270
+                    Height =420
+                    BorderColor =12632256
+                    Name ="BoxCaptions"
+                    HorizontalAnchor =2
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =18270
+                    LayoutCachedHeight =1260
+                    ColumnEnd =1
+                    BackThemeColorIndex =4
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                End
+                Begin Image
+                    PictureAlignment =0
+                    PictureType =2
+                    Left =120
+                    Top =60
+                    Width =720
+                    Height =720
+                    BorderColor =0
+                    Name ="imgNorthwindTradersLogo"
+                    ControlTipText ="Northwind Traders Logo"
+                    Picture ="NW2Logo"
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =840
+                    LayoutCachedHeight =780
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =930
+                    Top =60
+                    Width =3630
+                    Height =570
+                    FontSize =18
+                    FontWeight =700
+                    LeftMargin =29
+                    TopMargin =29
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="Auto_Header0"
+                    Caption ="Northwind Features"
+                    FontName ="Calibri Light"
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =930
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =4560
+                    LayoutCachedHeight =630
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =0
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin Section
+            Height =9000
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2340
+                    Top =1920
+                    Height =300
+                    ColumnWidth =3050
+                    ColumnOrder =0
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtItemName"
+                    ControlSource ="ItemName"
+                    LayoutCachedLeft =2340
+                    LayoutCachedTop =1920
+                    LayoutCachedWidth =3780
+                    LayoutCachedHeight =2220
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =540
+                            Top =1920
+                            Width =1060
+                            Height =300
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="Label161"
+                            Caption ="Item Name"
+                            LayoutCachedLeft =540
+                            LayoutCachedTop =1920
+                            LayoutCachedWidth =1600
+                            LayoutCachedHeight =2220
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2340
+                    Top =2280
+                    Height =300
+                    ColumnWidth =4800
+                    ColumnOrder =1
+                    TabIndex =1
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtDescription"
+                    ControlSource ="Description"
+                    LayoutCachedLeft =2340
+                    LayoutCachedTop =2280
+                    LayoutCachedWidth =3780
+                    LayoutCachedHeight =2580
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =540
+                            Top =2280
+                            Width =1090
+                            Height =300
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="Label162"
+                            Caption ="Description"
+                            LayoutCachedLeft =540
+                            LayoutCachedTop =2280
+                            LayoutCachedWidth =1630
+                            LayoutCachedHeight =2580
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2340
+                    Top =2640
+                    Height =300
+                    ColumnWidth =5025
+                    ColumnOrder =2
+                    TabIndex =2
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtNavigation"
+                    ControlSource ="Navigation"
+                    LayoutCachedLeft =2340
+                    LayoutCachedTop =2640
+                    LayoutCachedWidth =3780
+                    LayoutCachedHeight =2940
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =540
+                            Top =2640
+                            Width =1020
+                            Height =300
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="Label163"
+                            Caption ="Navigation (from Main Menu)"
+                            LayoutCachedLeft =540
+                            LayoutCachedTop =2640
+                            LayoutCachedWidth =1560
+                            LayoutCachedHeight =2940
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2220
+                    Top =3900
+                    Height =300
+                    ColumnWidth =2535
+                    ColumnOrder =5
+                    TabIndex =4
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtHelpKeywords"
+                    ControlSource ="HelpKeywords"
+                    OnClick ="[Event Procedure]"
+                    LayoutCachedLeft =2220
+                    LayoutCachedTop =3900
+                    LayoutCachedWidth =3660
+                    LayoutCachedHeight =4200
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =420
+                            Top =3900
+                            Width =1500
+                            Height =300
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="Label165"
+                            Caption ="Click for In-App Help"
+                            LayoutCachedLeft =420
+                            LayoutCachedTop =3900
+                            LayoutCachedWidth =1920
+                            LayoutCachedHeight =4200
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Locked = NotDefault
+                    ColumnHidden = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2280
+                    Top =3420
+                    Height =315
+                    ColumnWidth =1440
+                    ColumnOrder =3
+                    TabIndex =3
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="OpenMethod"
+                    ControlSource ="OpenMethod"
+                    StatusBarText ="1=InPage,2=FollowHyperlink"
+                    LayoutCachedLeft =2280
+                    LayoutCachedTop =3420
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =3735
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =480
+                            Top =3420
+                            Width =1320
+                            Height =315
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="Label166"
+                            Caption ="OpenMethod"
+                            LayoutCachedLeft =480
+                            LayoutCachedTop =3420
+                            LayoutCachedWidth =1800
+                            LayoutCachedHeight =3735
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2340
+                    Top =3060
+                    Width =4320
+                    Height =315
+                    ColumnWidth =1770
+                    ColumnOrder =4
+                    TabIndex =5
+                    LeftMargin =29
+                    TopMargin =22
+                    RightMargin =29
+                    BottomMargin =22
+                    Name ="txtLearnMore"
+                    ControlSource ="LearnMore"
+                    LayoutCachedLeft =2340
+                    LayoutCachedTop =3060
+                    LayoutCachedWidth =6660
+                    LayoutCachedHeight =3375
+                    ForeThemeColorIndex =10
+                    ForeTint =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =540
+                            Top =3060
+                            Width =1080
+                            Height =315
+                            LeftMargin =29
+                            TopMargin =29
+                            RightMargin =29
+                            BottomMargin =22
+                            Name ="lblOnlineHelp"
+                            Caption ="Click for On-Line Help"
+                            LayoutCachedLeft =540
+                            LayoutCachedTop =3060
+                            LayoutCachedWidth =1620
+                            LayoutCachedHeight =3375
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
+CodeBehindForm
+' See "frmNorthwindFeatures.cls"

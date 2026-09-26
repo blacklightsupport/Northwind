@@ -1,0 +1,114 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "qryProductList"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Allocated": {
+        "ColumnOrder": 8,
+        "AggregateType": -1
+      },
+      "Available": {
+        "ColumnOrder": 9,
+        "AggregateType": -1
+      },
+      "NoStock": {
+        "ColumnOrder": 7,
+        "AggregateType": -1
+      },
+      "ProductCategories.ProductCategoryName": {
+        "ColumnOrder": 2,
+        "AggregateType": -1
+      },
+      "Products.MinimumReorderQuantity": {
+        "ColumnOrder": 12,
+        "ColumnWidth": 2880,
+        "AggregateType": -1
+      },
+      "Products.ProductCategoryID": {
+        "ColumnWidth": 2160,
+        "AggregateType": -1
+      },
+      "Products.ProductCode": {
+        "ColumnOrder": 3,
+        "AggregateType": -1
+      },
+      "Products.ProductDescription": {
+        "ColumnOrder": 5,
+        "AggregateType": -1
+      },
+      "Products.ProductID": {
+        "ColumnOrder": 1,
+        "AggregateType": -1
+      },
+      "Products.ProductName": {
+        "ColumnOrder": 4,
+        "AggregateType": -1
+      },
+      "Products.ReorderLevel": {
+        "ColumnOrder": 13,
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "Products.TargetLevel": {
+        "ColumnOrder": 10,
+        "ColumnWidth": 1500,
+        "AggregateType": -1
+      },
+      "QtyBelowTargetLevel": {
+        "ColumnOrder": 11,
+        "ColumnWidth": 2415,
+        "AggregateType": -1
+      },
+      "QtyToReorder": {
+        "ColumnOrder": 14,
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "ToSell": {
+        "ColumnOrder": 9,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1484,
+        "bottom": 1264
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1459,
+        "bottom": 194
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "ProductCategories",
+          "Alias": "",
+          "Left": 41,
+          "Top": 19,
+          "Right": 242,
+          "Bottom": 218,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Products",
+          "Alias": "",
+          "Left": 321,
+          "Top": 23,
+          "Right": 519,
+          "Bottom": 212,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}
