@@ -286,11 +286,11 @@ Begin Form
                     Locked = NotDefault
                     TabStop = NotDefault
                     SpecialEffect =0
-                    OverlapFlags =215
+                    OverlapFlags =85
                     TextAlign =1
                     IMESentenceMode =3
                     Left =1095
-                    Top =1095
+                    Top =1335
                     Width =10800
                     Height =5221
                     FontSize =14
@@ -302,9 +302,9 @@ Begin Form
                     ControlSource ="=GetString(41)"
 
                     LayoutCachedLeft =1095
-                    LayoutCachedTop =1095
+                    LayoutCachedTop =1335
                     LayoutCachedWidth =11895
-                    LayoutCachedHeight =6316
+                    LayoutCachedHeight =6556
                     ColumnEnd =2
                     BorderThemeColorIndex =1
                     ForeThemeColorIndex =0

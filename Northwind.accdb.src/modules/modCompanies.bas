@@ -7,6 +7,11 @@ Public Function CalculatePrice() As Currency
 End Function
 
 
+Public Function CalculatePrice200() As Currency
+    CalculatePrice = 200
+End Function
+
+
 Public Function GetRandomCustomerID() As Long
 10        On Error GoTo Err_Handler
 
