@@ -2,6 +2,11 @@
 Option Compare Database
 Option Explicit
 
+Public Function CalculatePrice() As Currency
+    CalculatePrice = 100
+End Function
+
+
 Public Function GetRandomCustomerID() As Long
 10        On Error GoTo Err_Handler
 

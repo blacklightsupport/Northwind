@@ -235,6 +235,7 @@ Begin Form
                     Name ="imgNorthwindTradersLogo"
                     ControlTipText ="Northwind Traders Logo"
                     Picture ="NW2Logo256"
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =60
                     LayoutCachedWidth =840
@@ -257,6 +258,7 @@ Begin Form
                     ControlTipText ="Close the application"
                     UnicodeAccessKey =67
                     HorizontalAnchor =1
+
                     CursorOnHover =1
                     LayoutCachedLeft =10920
                     LayoutCachedTop =6960
@@ -284,11 +286,11 @@ Begin Form
                     Locked = NotDefault
                     TabStop = NotDefault
                     SpecialEffect =0
-                    OverlapFlags =85
+                    OverlapFlags =215
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =1080
-                    Top =1440
+                    Left =1095
+                    Top =1095
                     Width =10800
                     Height =5221
                     FontSize =14
@@ -298,10 +300,11 @@ Begin Form
                     BottomMargin =22
                     Name ="txtAbout"
                     ControlSource ="=GetString(41)"
-                    LayoutCachedLeft =1080
-                    LayoutCachedTop =1440
-                    LayoutCachedWidth =11880
-                    LayoutCachedHeight =6661
+
+                    LayoutCachedLeft =1095
+                    LayoutCachedTop =1095
+                    LayoutCachedWidth =11895
+                    LayoutCachedHeight =6316
                     ColumnEnd =2
                     BorderThemeColorIndex =1
                     ForeThemeColorIndex =0
